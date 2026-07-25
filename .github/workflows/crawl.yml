@@ -1,0 +1,55 @@
+name: Exchange Notice Crawler
+
+on:
+  schedule:
+    # UTC 23:00 周日~周四 = 北京时间 07:00 周一~周五
+    - cron: "0 23 * * 0-4"
+  workflow_dispatch: {}
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run crawler
+        run: python main.py --headless
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: ${{ env.HOME }}/.cache/ms-playwright
+
+      - name: Write to Tencent Docs
+        run: python scripts/write_to_tdocs_cloud.py
+        env:
+          TDOC_ACCESS_TOKEN: ${{ secrets.TDOC_ACCESS_TOKEN }}
+          TDOC_CLIENT_ID: ${{ secrets.TDOC_CLIENT_ID }}
+          TDOC_OPEN_ID: ${{ secrets.TDOC_OPEN_ID }}
+
+      - name: Commit results and state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results.json state/notices_state.json
+          git commit -m "Daily crawl $(date -u +%Y-%m-%d)" || echo "No changes to commit"
+          git push
+
+      - name: Upload results as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: crawl-results
+          path: results.json
+          retention-days: 30

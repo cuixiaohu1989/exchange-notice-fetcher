@@ -1,0 +1,10 @@
+# 爬虫 - 静态页面 (CFFEX, GFEX)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# 爬虫 - 动态页面 + WAF绕过 (CZCE, DCE, SHFE, INE)
+playwright>=1.45.0
+
+# 测试
+pytest>=8.0.0

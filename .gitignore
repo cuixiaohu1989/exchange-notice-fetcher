@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+.env
+diag_output/
+*.log
+.pytest_cache/
+
+# Debug/test scripts (not needed for production)
+scripts/test_*.py
+scripts/check_*.py
+scripts/diagnose_*.py
+scripts/quick_diag.py
+test_results.json
