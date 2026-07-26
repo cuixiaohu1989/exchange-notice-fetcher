@@ -13,6 +13,8 @@ jobs:
 
     permissions:
       contents: write
+      pages: write
+      id-token: write
 
     steps:
       - uses: actions/checkout@v4
@@ -39,11 +41,14 @@ jobs:
           TDOC_CLIENT_ID: ${{ secrets.TDOC_CLIENT_ID }}
           TDOC_OPEN_ID: ${{ secrets.TDOC_OPEN_ID }}
 
-      - name: Commit results and state
+      - name: Merge results into webpage data
+        run: python scripts/merge_results.py
+
+      - name: Commit results, state, and webpage data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add results.json state/notices_state.json
+          git add results.json state/notices_state.json docs/data.json
           git commit -m "Daily crawl $(date -u +%Y-%m-%d)" || echo "No changes to commit"
           git push
 
@@ -53,3 +58,14 @@ jobs:
           name: crawl-results
           path: results.json
           retention-days: 30
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
