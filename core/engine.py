@@ -9,8 +9,7 @@
 """
 import time
 import random
-from datetime import date
-from .date_utils import get_fetch_date_range, SkipFetchException
+from .date_utils import get_fetch_date_range, SkipFetchException, beijing_today
 from fetchers.base import PlaywrightFetcher
 
 
@@ -50,7 +49,7 @@ class FetchEngine:
             return {
                 "status": "skipped",
                 "reason": "weekend",
-                "date": date.today().isoformat(),
+                "date": beijing_today().isoformat(),
                 "date_range": None,
                 "total": 0,
                 "failed_exchanges": [],
@@ -104,7 +103,7 @@ class FetchEngine:
         # 5. 构造结果
         result = {
             "status": "success" if not failed_exchanges else "partial",
-            "date": date.today().isoformat(),
+            "date": beijing_today().isoformat(),
             "date_range": {
                 "start": start_date.isoformat(),
                 "end": end_date.isoformat(),
