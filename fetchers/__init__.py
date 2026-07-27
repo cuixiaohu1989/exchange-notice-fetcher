@@ -28,8 +28,8 @@ EXCHANGE_CONFIGS = [
         "name": "郑商所",
         "engine": "playwright",
         "use_stealth": False,  # 瑞数 WAF 检测 stealth 篡改并拦截
-        "url": "https://www.czce.com.cn/cn/gyjys/jysdt/ggytz/H077001003001index_1.htm",
-        "base_domain": "https://www.czce.com.cn",
+        "url": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/H077001003001index_1.htm",
+        "base_domain": "http://www.czce.com.cn",
         "selectors": {
             "list": "tr",
             "title": "td.xxgktit a",
