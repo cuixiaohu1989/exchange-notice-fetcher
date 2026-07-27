@@ -51,15 +51,15 @@ class CZCEFetcher(PlaywrightFetcher):
             )
 
             # 等待 WAF JS 执行 + 页面重载 + 内容加载完成
-            # 云环境网络较慢，给予 90 秒超时
-            if self._wait_for_api(page, timeout=90):
+            # 云环境网络较慢，给予 120 秒超时
+            if self._wait_for_api(page, timeout=120):
                 return True
 
             # 首次未拦截到 API，刷新页面再试一次
             self.logger.warning(f"[{self.name}] 首次未拦截到 API，尝试刷新页面")
             self._api_data = None
             page.reload(wait_until="commit", timeout=30000)
-            if self._wait_for_api(page, timeout=60):
+            if self._wait_for_api(page, timeout=90):
                 return True
 
             self.logger.warning(f"[{self.name}] 刷新后仍未拦截到 API，将尝试 DOM 解析")
@@ -91,6 +91,13 @@ class CZCEFetcher(PlaywrightFetcher):
 
     def _parse_page(self, page) -> List[Notice]:
         """从拦截的 API JSON 数据解析通知；API 失败时降级解析 DOM"""
+        # API 响应可能在 _wait_for_api 刚结束时到达，再稍等片刻
+        if not self._api_data:
+            for _ in range(5):
+                if self._api_data:
+                    break
+                time.sleep(3)
+
         if self._api_data:
             return self._parse_api_data()
 
