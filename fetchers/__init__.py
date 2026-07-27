@@ -55,7 +55,7 @@ EXCHANGE_CONFIGS = [
         "engine": "playwright",
         "use_stealth": True,
         "url": "https://www.shfe.com.cn/publicnotice/notice/",
-        "base_domain": "https://www.shfe.com.cn",
+        "base_domain": "https://www.shfe.com.cn/publicnotice/notice",
         "selectors": {
             "list": "div.table_item_info",
             "title": ".info_item_title a",
