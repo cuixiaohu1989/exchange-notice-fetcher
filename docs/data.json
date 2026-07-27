@@ -1,67 +1,11 @@
 {
   "notices": [
     {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于调整棉花期货交易保证金标准的通知",
-      "notice_date": "2026-07-24",
-      "link": "https://www.czce.com.cn/cn/gyjys/jysdt/ggytz/20260724.html",
-      "crawled_date": "2026-07-25"
-    },
-    {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于调整铁矿石期货合约涨跌停板幅度和最低交易保证金水平的通知",
-      "notice_date": "2026-07-24",
-      "link": "http://www.dce.com.cn/dce/ywggytz/20260724.html",
-      "crawled_date": "2026-07-25"
-    },
-    {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于铜等品种期货合约交易保证金收取标准的通知",
+      "title": "关于同意甘肃东兴铝业有限公司等5家注册企业调整产品标识和包装标准的公告",
       "notice_date": "2026-07-24",
-      "link": "https://www.shfe.com.cn/notice/20260724.html",
-      "crawled_date": "2026-07-25"
-    },
-    {
-      "exchange": "CFFEX",
-      "exchange_name": "中金所",
-      "title": "关于股指期货合约交易保证金调整的通知",
-      "notice_date": "2026-07-24",
-      "link": "http://www.cffex.com.cn/jystz/20260724.html",
-      "crawled_date": "2026-07-25"
-    },
-    {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于工业硅期货合约交割仓库调整的通知",
-      "notice_date": "2026-07-24",
-      "link": "http://www.gfex.com.cn/gfex/tzts/20260724.html",
-      "crawled_date": "2026-07-25"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于发布上海国际能源交易中心低硫燃料油期货期权合约的公告",
-      "notice_date": "2026-07-24",
-      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260724_832714.html",
-      "crawled_date": "2026-07-27"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于发布上海期货交易所热轧卷板、不锈钢期货期权合约的公告",
-      "notice_date": "2026-07-24",
-      "link": "https://www.shfe.com.cn/202607/t20260724_832716.html",
-      "crawled_date": "2026-07-27"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心关于发布低硫燃料油期货期权合约的公告",
-      "notice_date": "2026-07-24",
-      "link": "https://www.shfe.com.cn/202607/t20260724_832715.html",
+      "link": "https://www.shfe.com.cn/202607/t20260724_832729.html",
       "crawled_date": "2026-07-27"
     },
     {
@@ -75,12 +19,28 @@
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于同意甘肃东兴铝业有限公司等5家注册企业调整产品标识和包装标准的公告",
+      "title": "上海国际能源交易中心关于发布低硫燃料油期货期权合约的公告",
       "notice_date": "2026-07-24",
-      "link": "https://www.shfe.com.cn/202607/t20260724_832729.html",
+      "link": "https://www.shfe.com.cn/202607/t20260724_832715.html",
+      "crawled_date": "2026-07-27"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于发布上海期货交易所热轧卷板、不锈钢期货期权合约的公告",
+      "notice_date": "2026-07-24",
+      "link": "https://www.shfe.com.cn/202607/t20260724_832716.html",
+      "crawled_date": "2026-07-27"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于发布上海国际能源交易中心低硫燃料油期货期权合约的公告",
+      "notice_date": "2026-07-24",
+      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260724_832714.html",
       "crawled_date": "2026-07-27"
     }
   ],
-  "last_update": "2026-07-27T19:00:06.180526+08:00",
-  "total": 10
+  "last_update": "2026-07-27T19:32:46.770391+08:00",
+  "total": 5
 }
