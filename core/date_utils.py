@@ -1,5 +1,12 @@
 """日期计算工具模块"""
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
+
+BEIJING_TZ = timezone(timedelta(hours=8))
+
+
+def beijing_today() -> date:
+    """返回北京时间（UTC+8）的今天日期，避免 GitHub Actions UTC 时区偏移。"""
+    return datetime.now(BEIJING_TZ).date()
 
 
 class SkipFetchException(Exception):
@@ -18,7 +25,7 @@ def get_fetch_date_range() -> tuple[date, date]:
     Returns:
         (start_date, end_date) 闭区间
     """
-    today = date.today()
+    today = beijing_today()
     weekday = today.weekday()  # 0=周一, 6=周日
 
     if weekday in (5, 6):  # 周六或周日
