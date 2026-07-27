@@ -5,9 +5,16 @@
     "start": "2026-07-27",
     "end": "2026-07-27"
   },
-  "total": 1,
+  "total": 2,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于公布部分期货、期权品种做市商名单的公告",
+      "notice_date": "2026-07-27",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/7/1e5e5a6827584bc2ae2777067fc85d1c.htm"
+    },
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
