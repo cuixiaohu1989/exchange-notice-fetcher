@@ -1,6 +1,14 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于公布部分期货、期权品种做市商名单的公告",
+      "notice_date": "2026-07-27",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/7/1e5e5a6827584bc2ae2777067fc85d1c.htm",
+      "crawled_date": "2026-07-28"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
@@ -49,6 +57,6 @@
       "crawled_date": "2026-07-27"
     }
   ],
-  "last_update": "2026-07-28T07:16:20.403969+08:00",
-  "total": 6
+  "last_update": "2026-07-28T07:38:00+08:00",
+  "total": 7
 }
