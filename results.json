@@ -1,26 +1,40 @@
 {
   "status": "success",
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "date_range": {
-    "start": "2026-07-27",
-    "end": "2026-07-27"
+    "start": "2026-07-28",
+    "end": "2026-07-28"
   },
-  "total": 2,
+  "total": 4,
   "failed_exchanges": [],
   "notices": [
     {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于公布部分期货、期权品种做市商名单的公告",
-      "notice_date": "2026-07-27",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/7/1e5e5a6827584bc2ae2777067fc85d1c.htm"
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于开展低硫燃料油期权及部分期货、期权品种做市商招募工作的通知",
+      "notice_date": "2026-07-28",
+      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260728_832763.html"
     },
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-07-27",
-      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260727_832746.html"
+      "notice_date": "2026-07-28",
+      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260728_832762.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于开展不锈钢、热轧卷板期权及部分期货、期权品种做市商招募工作的通知",
+      "notice_date": "2026-07-28",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260728_832775.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于开展低硫燃料油期权及部分期货、期权品种做市商招募工作的通知",
+      "notice_date": "2026-07-28",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260728_832773.html"
     }
   ]
 }
