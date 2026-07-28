@@ -2,8 +2,8 @@ name: Exchange Notice Crawler
 
 on:
   schedule:
-    # UTC 22:15 每天 = 北京时间 06:15 每天（避开整点高峰，减少 GitHub Actions 延迟）
-    - cron: "15 22 * * *"
+    # UTC 19:17 每天 = 北京时间 03:17 每天（凌晨低峰，避开美国晚间CI高峰和整点聚集）
+    - cron: "17 19 * * *"
   workflow_dispatch: {}
 
 jobs:
