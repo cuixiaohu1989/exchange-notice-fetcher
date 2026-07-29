@@ -393,7 +393,8 @@ body {
 <div class="header">
   <h1>期货交易所通知汇总</h1>
   <div class="subtitle">中金所 · 上期所 · 广期所 · 上海能源 · 郑商所 · 大商所</div>
-  <div class="update-time" id="updateTime">加载中...
+  <div class="update-time" id="updateTime">
+    <span id="updateTimeText">加载中...</span>
     <button class="refresh-btn" id="refreshBtn" onclick="showRefreshModal()">手动刷新</button>
   </div>
 </div>
@@ -490,7 +491,7 @@ async function loadData() {
     });
 
     // Update time
-    document.getElementById('updateTime').textContent =
+    document.getElementById('updateTimeText').textContent =
       data.last_update ? '最后更新: ' + formatTime(data.last_update) : '最后更新: 未知';
 
     // Set date picker ranges
