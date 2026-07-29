@@ -1,40 +1,19 @@
 {
   "status": "success",
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "date_range": {
-    "start": "2026-07-28",
-    "end": "2026-07-28"
+    "start": "2026-07-29",
+    "end": "2026-07-29"
   },
-  "total": 4,
+  "total": 1,
   "failed_exchanges": [],
   "notices": [
     {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于开展低硫燃料油期权及部分期货、期权品种做市商招募工作的通知",
-      "notice_date": "2026-07-28",
-      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260728_832763.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-07-28",
-      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260728_832762.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于开展不锈钢、热轧卷板期权及部分期货、期权品种做市商招募工作的通知",
-      "notice_date": "2026-07-28",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260728_832775.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于开展低硫燃料油期权及部分期货、期权品种做市商招募工作的通知",
-      "notice_date": "2026-07-28",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260728_832773.html"
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加5年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-07-29",
+      "link": "http://www.cffex.com.cn/cn/jystz/20260729/48370.html"
     }
   ]
 }

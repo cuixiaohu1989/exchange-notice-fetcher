@@ -1,6 +1,14 @@
 {
   "notices": [
     {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加5年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-07-29",
+      "link": "http://www.cffex.com.cn/cn/jystz/20260729/48370.html",
+      "crawled_date": "2026-07-30"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于开展低硫燃料油期权及部分期货、期权品种做市商招募工作的通知",
@@ -89,6 +97,6 @@
       "crawled_date": "2026-07-27"
     }
   ],
-  "last_update": "2026-07-29T20:31:15.376711+08:00",
-  "total": 11
+  "last_update": "2026-07-30T06:38:00.631450+08:00",
+  "total": 12
 }
