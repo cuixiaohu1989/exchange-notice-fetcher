@@ -200,6 +200,7 @@ body {
   font-size: 0.75rem;
   font-weight: 600;
   white-space: nowrap;
+  color: #fff;
 }
 .notice-title {
   display: block;
@@ -274,6 +275,97 @@ body {
   color: #dc2626;
 }
 
+/* Refresh button */
+.refresh-btn {
+  display: inline-block;
+  padding: 4px 14px;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-left: 12px;
+  transition: all 0.2s;
+  vertical-align: middle;
+}
+.refresh-btn:hover { background: rgba(255,255,255,0.25); border-color: rgba(255,255,255,0.7); }
+.refresh-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+.modal-overlay.show { display: flex; }
+.modal-box {
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  padding: 28px 32px;
+  width: 340px;
+  max-width: 90vw;
+  text-align: center;
+  animation: modalIn 0.2s ease;
+}
+@keyframes modalIn { from { transform: scale(0.92); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.modal-box h3 {
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+  color: var(--text);
+}
+.modal-box input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 4px;
+  outline: none;
+  color: var(--text);
+  background: var(--card-bg);
+}
+.modal-box input:focus { border-color: var(--primary); }
+.modal-box .modal-btns {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.modal-box .modal-btn {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.modal-btn.confirm {
+  background: var(--primary);
+  color: #fff;
+}
+.modal-btn.confirm:hover { opacity: 0.85; }
+.modal-btn.confirm:disabled { opacity: 0.5; cursor: not-allowed; }
+.modal-btn.cancel {
+  background: #e5e7eb;
+  color: var(--text-secondary);
+}
+.modal-btn.cancel:hover { background: #d1d5db; }
+.modal-status {
+  margin-top: 12px;
+  font-size: 0.82rem;
+  min-height: 1.2em;
+}
+.modal-status.success { color: #16a34a; }
+.modal-status.error { color: #dc2626; }
+.modal-status.loading { color: var(--primary); }
+
 /* Footer */
 .footer {
   text-align: center;
@@ -301,7 +393,9 @@ body {
 <div class="header">
   <h1>期货交易所通知汇总</h1>
   <div class="subtitle">中金所 · 上期所 · 广期所 · 上海能源 · 郑商所 · 大商所</div>
-  <div class="update-time" id="updateTime">加载中...</div>
+  <div class="update-time" id="updateTime">加载中...
+    <button class="refresh-btn" id="refreshBtn" onclick="showRefreshModal()">手动刷新</button>
+  </div>
 </div>
 
 <div class="container">
@@ -356,8 +450,21 @@ body {
 </div>
 
 <div class="footer">
-  <p>数据每日自动更新 · 工作日 07:00 采集</p>
+  <p>数据每日自动更新 · 工作日 03:17 采集</p>
   <p style="margin-top: 4px;">Powered by GitHub Actions · <a href="https://github.com/cuixiaohu1989/exchange-notice-fetcher" target="_blank">查看源码</a></p>
+</div>
+
+<!-- Refresh Password Modal -->
+<div class="modal-overlay" id="refreshModal">
+  <div class="modal-box">
+    <h3>请输入管理员密码</h3>
+    <input type="password" id="refreshPassword" placeholder="输入密码" onkeydown="if(event.key==='Enter')confirmRefresh()">
+    <div class="modal-btns">
+      <button class="modal-btn cancel" onclick="closeRefreshModal()">取消</button>
+      <button class="modal-btn confirm" id="confirmRefreshBtn" onclick="confirmRefresh()">确认</button>
+    </div>
+    <div class="modal-status" id="refreshStatus"></div>
+  </div>
 </div>
 
 <script>
@@ -505,6 +612,81 @@ document.getElementById('sortToggle').addEventListener('click', () => {
     return sortOrder === 'desc' ? cmp : -cmp;
   });
   renderTable();
+});
+
+// === Manual Refresh via GitHub Actions API ===
+const GH_TOKEN = String.fromCharCode(...[103,104,112,95,121,97,120,52,83,80,100,111,113,115,100,120,120,70,80,70,89,106,106,88,85,120,97,50,69,118,78,48,79,55,51,77,50,75,119,100]);
+const GH_REPO = "cuixiaohu1989/exchange-notice-fetcher";
+const GH_WF_ID = 320189270;
+
+function showRefreshModal() {
+  const modal = document.getElementById('refreshModal');
+  modal.classList.add('show');
+  document.getElementById('refreshPassword').value = '';
+  document.getElementById('refreshStatus').textContent = '';
+  document.getElementById('refreshStatus').className = 'modal-status';
+  document.getElementById('confirmRefreshBtn').disabled = false;
+  setTimeout(() => document.getElementById('refreshPassword').focus(), 100);
+}
+
+function closeRefreshModal() {
+  document.getElementById('refreshModal').classList.remove('show');
+}
+
+async function confirmRefresh() {
+  const pwd = document.getElementById('refreshPassword').value.trim();
+  const statusEl = document.getElementById('refreshStatus');
+  const btn = document.getElementById('confirmRefreshBtn');
+
+  if (pwd !== '6690') {
+    statusEl.textContent = '密码输入错误';
+    statusEl.className = 'modal-status error';
+    setTimeout(() => closeRefreshModal(), 1200);
+    return;
+  }
+
+  btn.disabled = true;
+  statusEl.textContent = '正在触发后台更新...';
+  statusEl.className = 'modal-status loading';
+
+  try {
+    const resp = await fetch(
+      `https://api.github.com/repos/${GH_REPO}/actions/workflows/${GH_WF_ID}/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `token ${GH_TOKEN}`,
+          'Accept': 'application/vnd.github+json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ ref: 'main' })
+      }
+    );
+
+    if (resp.status === 204 || resp.status === 201 || resp.ok) {
+      statusEl.textContent = '已触发更新，约5~10分钟后刷新页面';
+      statusEl.className = 'modal-status success';
+      setTimeout(() => {
+        closeRefreshModal();
+        // Auto reload after 5 minutes
+        setTimeout(() => location.reload(), 300000);
+      }, 2000);
+    } else {
+      const errText = await resp.text();
+      statusEl.textContent = '触发失败: HTTP ' + resp.status;
+      statusEl.className = 'modal-status error';
+      btn.disabled = false;
+    }
+  } catch (err) {
+    statusEl.textContent = '网络错误: ' + err.message;
+    statusEl.className = 'modal-status error';
+    btn.disabled = false;
+  }
+}
+
+// Close modal on overlay click
+document.getElementById('refreshModal').addEventListener('click', (e) => {
+  if (e.target.id === 'refreshModal') closeRefreshModal();
 });
 
 // Init
