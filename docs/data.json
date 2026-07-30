@@ -1,6 +1,30 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于开展2026—2027年度“领航计划”专项试点工作的通知",
+      "notice_date": "2026-07-30",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/7/11cb1f494acb432288c9c170268e9b12.htm",
+      "crawled_date": "2026-07-31"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于开展2026－2027年度境外市场服务项目的通知",
+      "notice_date": "2026-07-30",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/7/4ec972b3e9f545a89de5d4c0f9f751c6.htm",
+      "crawled_date": "2026-07-31"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-07-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260730_832801.html",
+      "crawled_date": "2026-07-31"
+    },
+    {
       "exchange": "CFFEX",
       "exchange_name": "中金所",
       "title": "关于增加5年期国债期货合约可交割国债的通知",
@@ -97,6 +121,6 @@
       "crawled_date": "2026-07-27"
     }
   ],
-  "last_update": "2026-07-30T06:38:00.631450+08:00",
-  "total": 12
+  "last_update": "2026-07-31T06:52:54.592208+08:00",
+  "total": 15
 }
