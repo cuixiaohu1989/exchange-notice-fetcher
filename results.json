@@ -1,9 +1,61 @@
 {
-  "status": "skipped",
-  "reason": "weekend",
-  "date": "2026-08-02",
-  "date_range": null,
-  "total": 0,
+  "status": "success",
+  "date": "2026-08-03",
+  "date_range": {
+    "start": "2026-07-31",
+    "end": "2026-08-02"
+  },
+  "total": 7,
   "failed_exchanges": [],
-  "notices": []
+  "notices": [
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于扩大豆粕、黄大豆2号品种指定厂库标准仓单最大量的公告",
+      "notice_date": "2026-07-31",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632138.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整生猪指定交割仓库、指定车板交割场所的公告",
+      "notice_date": "2026-07-31",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632133.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整原木指定交割仓库的公告",
+      "notice_date": "2026-07-31",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632129.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整豆粕、黄大豆2号指定交割仓库的公告",
+      "notice_date": "2026-07-31",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632125.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整粳米指定交割仓库的公告",
+      "notice_date": "2026-07-31",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632121.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整黄大豆1号指定交割仓库的公告",
+      "notice_date": "2026-07-31",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632117.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意山东钢铁集团永锋临港有限公司“永锋”牌热轧卷板在我所注册的公告",
+      "notice_date": "2026-07-31",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260731_832803.html"
+    }
+  ]
 }

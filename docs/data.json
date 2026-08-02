@@ -1,6 +1,14 @@
 {
   "notices": [
     {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意山东钢铁集团永锋临港有限公司“永锋”牌热轧卷板在我所注册的公告",
+      "notice_date": "2026-07-31",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260731_832803.html",
+      "crawled_date": "2026-08-03"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于开展2026—2027年度“领航计划”专项试点工作的通知",
@@ -121,6 +129,6 @@
       "crawled_date": "2026-07-27"
     }
   ],
-  "last_update": "2026-08-02T06:19:02.535838+08:00",
-  "total": 15
+  "last_update": "2026-08-03T06:20:20.839827+08:00",
+  "total": 16
 }
