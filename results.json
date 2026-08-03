@@ -1,61 +1,75 @@
 {
   "status": "success",
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "date_range": {
-    "start": "2026-07-31",
-    "end": "2026-08-02"
+    "start": "2026-08-03",
+    "end": "2026-08-03"
   },
-  "total": 7,
+  "total": 9,
   "failed_exchanges": [],
   "notices": [
     {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于扩大豆粕、黄大豆2号品种指定厂库标准仓单最大量的公告",
-      "notice_date": "2026-07-31",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632138.html"
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于上线套利指令的通知",
+      "notice_date": "2026-08-03",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832835.html"
     },
     {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于调整生猪指定交割仓库、指定车板交割场所的公告",
-      "notice_date": "2026-07-31",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632133.html"
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于同意世天威物流（上海外高桥保税物流园区）有限公司增加国际铜及20号胶存放点的公告",
+      "notice_date": "2026-08-03",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832819.html"
     },
     {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于调整原木指定交割仓库的公告",
-      "notice_date": "2026-07-31",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632129.html"
-    },
-    {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于调整豆粕、黄大豆2号指定交割仓库的公告",
-      "notice_date": "2026-07-31",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632125.html"
-    },
-    {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于调整粳米指定交割仓库的公告",
-      "notice_date": "2026-07-31",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632121.html"
-    },
-    {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于调整黄大豆1号指定交割仓库的公告",
-      "notice_date": "2026-07-31",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632117.html"
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-08-03",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832833.html"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于同意山东钢铁集团永锋临港有限公司“永锋”牌热轧卷板在我所注册的公告",
-      "notice_date": "2026-07-31",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260731_832803.html"
+      "title": "关于上线套利指令的通知",
+      "notice_date": "2026-08-03",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832839.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于上线套利指令的通知",
+      "notice_date": "2026-08-03",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832836.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意世天威物流（上海外高桥保税物流园区）有限公司增加铜存放点的公告",
+      "notice_date": "2026-08-03",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832824.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意上海洋山保税港区世天威物流有限公司放弃铜期货交割仓库资格的公告",
+      "notice_date": "2026-08-03",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832823.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于同意世天威物流（上海外高桥保税物流园区）有限公司增加国际铜及20号胶存放点的公告",
+      "notice_date": "2026-08-03",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832820.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于发布《上海期货交易所石油沥青注册商品管理规定》（2026年8月修订版）的公告",
+      "notice_date": "2026-08-03",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832817.html"
     }
   ]
 }
