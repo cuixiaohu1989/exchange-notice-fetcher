@@ -1,82 +1,33 @@
 {
   "status": "success",
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "date_range": {
-    "start": "2026-08-03",
-    "end": "2026-08-03"
+    "start": "2026-08-04",
+    "end": "2026-08-04"
   },
-  "total": 10,
+  "total": 3,
   "failed_exchanges": [],
   "notices": [
     {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "市场风险提示公告",
-      "notice_date": "2026-08-03",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202608/5894303da48c46a087a89039d13d5d8e.shtml"
-    },
-    {
       "exchange": "INE",
       "exchange_name": "上期能源",
-      "title": "关于上线套利指令的通知",
-      "notice_date": "2026-08-03",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832835.html"
+      "title": "关于交易系统测试的通知",
+      "notice_date": "2026-08-04",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260804_832844.html"
     },
     {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于同意世天威物流（上海外高桥保税物流园区）有限公司增加国际铜及20号胶存放点的公告",
-      "notice_date": "2026-08-03",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832819.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-03",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832833.html"
+      "notice_date": "2026-08-04",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260804_832861.html"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于上线套利指令的通知",
-      "notice_date": "2026-08-03",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832839.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于上线套利指令的通知",
-      "notice_date": "2026-08-03",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832836.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意世天威物流（上海外高桥保税物流园区）有限公司增加铜存放点的公告",
-      "notice_date": "2026-08-03",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832824.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意上海洋山保税港区世天威物流有限公司放弃铜期货交割仓库资格的公告",
-      "notice_date": "2026-08-03",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832823.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于同意世天威物流（上海外高桥保税物流园区）有限公司增加国际铜及20号胶存放点的公告",
-      "notice_date": "2026-08-03",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832820.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于发布《上海期货交易所石油沥青注册商品管理规定》（2026年8月修订版）的公告",
-      "notice_date": "2026-08-03",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260803_832817.html"
+      "title": "关于交易系统测试的通知",
+      "notice_date": "2026-08-04",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260804_832843.html"
     }
   ]
 }

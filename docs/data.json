@@ -1,6 +1,30 @@
 {
   "notices": [
     {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于交易系统测试的通知",
+      "notice_date": "2026-08-04",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260804_832844.html",
+      "crawled_date": "2026-08-05"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-08-04",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260804_832861.html",
+      "crawled_date": "2026-08-05"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于交易系统测试的通知",
+      "notice_date": "2026-08-04",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260804_832843.html",
+      "crawled_date": "2026-08-05"
+    },
+    {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于上线套利指令的通知",
@@ -265,7 +289,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-04T18:23:29.149755+08:00",
-  "total": 33,
+  "last_update": "2026-08-05T06:51:33.502948+08:00",
+  "total": 36,
   "date": "2026-08-04"
 }
