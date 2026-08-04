@@ -5,9 +5,16 @@
     "start": "2026-08-03",
     "end": "2026-08-03"
   },
-  "total": 9,
+  "total": 10,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "市场风险提示公告",
+      "notice_date": "2026-08-03",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202608/5894303da48c46a087a89039d13d5d8e.shtml"
+    },
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
