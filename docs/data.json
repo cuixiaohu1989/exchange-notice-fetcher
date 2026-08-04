@@ -1,30 +1,6 @@
 {
   "notices": [
     {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于上线套利指令的通知",
-      "notice_date": "2026-08-03",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832835.html",
-      "crawled_date": "2026-08-04"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于同意世天威物流（上海外高桥保税物流园区）有限公司增加国际铜及20号胶存放点的公告",
-      "notice_date": "2026-08-03",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832819.html",
-      "crawled_date": "2026-08-04"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-03",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832833.html",
-      "crawled_date": "2026-08-04"
-    },
-    {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于上线套利指令的通知",
@@ -73,12 +49,52 @@
       "crawled_date": "2026-08-04"
     },
     {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于上线套利指令的通知",
+      "notice_date": "2026-08-03",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832835.html",
+      "crawled_date": "2026-08-04"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于同意世天威物流（上海外高桥保税物流园区）有限公司增加国际铜及20号胶存放点的公告",
+      "notice_date": "2026-08-03",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832819.html",
+      "crawled_date": "2026-08-04"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-08-03",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260803_832833.html",
+      "crawled_date": "2026-08-04"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "市场风险提示公告",
+      "notice_date": "2026-08-03",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202608/5894303da48c46a087a89039d13d5d8e.shtml",
+      "crawled_date": "2026-08-04"
+    },
+    {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于同意山东钢铁集团永锋临港有限公司“永锋”牌热轧卷板在我所注册的公告",
       "notice_date": "2026-07-31",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260731_832803.html",
       "crawled_date": "2026-08-03"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-07-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260730_832801.html",
+      "crawled_date": "2026-07-31"
     },
     {
       "exchange": "CZCE",
@@ -97,36 +113,12 @@
       "crawled_date": "2026-07-31"
     },
     {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-07-30",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202607/t20260730_832801.html",
-      "crawled_date": "2026-07-31"
-    },
-    {
       "exchange": "CFFEX",
       "exchange_name": "中金所",
       "title": "关于增加5年期国债期货合约可交割国债的通知",
       "notice_date": "2026-07-29",
       "link": "http://www.cffex.com.cn/cn/jystz/20260729/48370.html",
       "crawled_date": "2026-07-30"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于开展低硫燃料油期权及部分期货、期权品种做市商招募工作的通知",
-      "notice_date": "2026-07-28",
-      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260728_832763.html",
-      "crawled_date": "2026-07-29"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-07-28",
-      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260728_832762.html",
-      "crawled_date": "2026-07-29"
     },
     {
       "exchange": "SHFE",
@@ -145,12 +137,20 @@
       "crawled_date": "2026-07-29"
     },
     {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于公布部分期货、期权品种做市商名单的公告",
-      "notice_date": "2026-07-27",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/7/1e5e5a6827584bc2ae2777067fc85d1c.htm",
-      "crawled_date": "2026-07-28"
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于开展低硫燃料油期权及部分期货、期权品种做市商招募工作的通知",
+      "notice_date": "2026-07-28",
+      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260728_832763.html",
+      "crawled_date": "2026-07-29"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-07-28",
+      "link": "https://www.ine.cn/publicnotice/notice/202607/t20260728_832762.html",
+      "crawled_date": "2026-07-29"
     },
     {
       "exchange": "INE",
@@ -158,6 +158,14 @@
       "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-07-27",
       "link": "https://www.ine.cn/publicnotice/notice/202607/t20260727_832746.html",
+      "crawled_date": "2026-07-28"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于公布部分期货、期权品种做市商名单的公告",
+      "notice_date": "2026-07-27",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/7/1e5e5a6827584bc2ae2777067fc85d1c.htm",
       "crawled_date": "2026-07-28"
     },
     {
@@ -199,8 +207,65 @@
       "notice_date": "2026-07-24",
       "link": "https://www.ine.cn/publicnotice/notice/202607/t20260724_832714.html",
       "crawled_date": "2026-07-27"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于调整碳酸锂期货指定交割库的公告",
+      "notice_date": "2026-07-14",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202607/58e5bc07169c4bf59557f03f30680b9b.shtml",
+      "crawled_date": "2026-08-04"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于多晶硅期货PS2707合约、碳酸锂期货LC2707合约有关事项的公告",
+      "notice_date": "2026-07-13",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202607/541edfc62951462584c38b511336c7de.shtml",
+      "crawled_date": "2026-08-04"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于调整多晶硅、碳酸锂期货相关合约交易手续费标准的通知",
+      "notice_date": "2026-07-07",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202607/c978c6fc43cf4c2bbd689af19d6b3b1c.shtml",
+      "crawled_date": "2026-08-04"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于调整铂、钯期货合约涨跌停板幅度和交易保证金标准的通知",
+      "notice_date": "2026-07-01",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202607/6bede1e5bc6846f995024a9e728f6807.shtml",
+      "crawled_date": "2026-08-04"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于公布相关品种做市商名单的公告",
+      "notice_date": "2026-06-29",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202606/e45be5c5d31e444dbd1ea0eb28292b85.shtml",
+      "crawled_date": "2026-08-04"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于境外交易者参与碳酸锂期货和期权交易的公告",
+      "notice_date": "2026-06-18",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202606/07444b918f104956b0d80d94b74096e5.shtml",
+      "crawled_date": "2026-08-04"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于碳酸锂期货和期权合约交易权限管理相关事项的通知",
+      "notice_date": "2026-06-18",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202606/72a6cfcd9400427eb19d08ed04b585ea.shtml",
+      "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-04T06:45:28.333336+08:00",
-  "total": 25
+  "last_update": "2026-08-04T18:21:44.229068+08:00",
+  "total": 33,
+  "date": "2026-08-04"
 }
