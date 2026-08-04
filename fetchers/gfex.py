@@ -1,15 +1,16 @@
 """广期所 (GFEX) 爬虫 - 使用 requests + BeautifulSoup（服务端渲染页面）
 
-广期所官网 notice/index.shtml 是JS动态渲染的，但存在一个服务端渲染的备用页面：
-  /gfex/tzts/list_yw_5.shtml
+广期所官网通知公告页 (/gfex/tzts/list_yw.shtml) 存在服务端渲染版本，
+直接返回完整的HTML（含通知列表），无需Playwright。
 
-该页面返回完整的HTML（含通知列表），无需Playwright，用requests直接抓取即可。
+页面分页机制：list_yw.shtml 为第一页（最新），list_yw_N.shtml 为更早的页。
+第一页包含最近的8-10条通知，足够覆盖历史回填需求。
 
 HTML结构:
   div.pageList.newsList.news-list-yw > ul > li
-    └─ div.clearfix
-       ├─ div.item_time > span.dd (日) + span.yyMM (年.月, 如 "2026.04")
-       └─ div.item_main > div.item_main_title > a (标题+链接) + p (摘要)
+    ├─ div.clearfix
+    │  ├─ div.item_time > span.dd (日) + span.yyMM (年.月, 如 "2026.04")
+    │  └─ div.item_main > div.item_main_title > a (标题+链接) + p (摘要)
 """
 import re
 import requests
@@ -23,8 +24,8 @@ class GFEXFetcher(BaseFetcher):
     使用服务端渲染页面 list_yw_5.shtml，避免JS渲染和WAF问题。
     """
 
-    # 通知列表页URL（服务端渲染）
-    LIST_URL = "http://www.gfex.com.cn/gfex/tzts/list_yw_5.shtml"
+    # 通知列表页URL（服务端渲染，第一页含最近8-10条）
+    LIST_URL = "http://www.gfex.com.cn/gfex/tzts/list_yw.shtml"
 
     # HTTP请求头
     HEADERS = {
