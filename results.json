@@ -1,33 +1,61 @@
 {
   "status": "success",
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "date_range": {
-    "start": "2026-08-04",
-    "end": "2026-08-04"
+    "start": "2026-08-05",
+    "end": "2026-08-05"
   },
-  "total": 3,
+  "total": 7,
   "failed_exchanges": [],
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于启用国家粮食和物资储备局河北局一三三处临时存货点的公告",
+      "notice_date": "2026-08-05",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/3d489047cb464f6c8e56065532a4dfe7.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于指定苹果车（船）板交割服务机构延安延农金色记忆农产品有限公司变更名称的公告",
+      "notice_date": "2026-08-05",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/1a972bafb0554aaf8f941e8266f87668.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于就修订《郑州商品交易所烧碱期货业务细则》《郑州商品交易所丙烯期货业务细则》征求意见的公告",
+      "notice_date": "2026-08-05",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/e1773f44b5dc4e8f801e109e95b02600.htm"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于焦炭期权上市交易有关事项的通知",
+      "notice_date": "2026-08-05",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632449.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于发布《大连商品交易所焦炭期货期权合约》的公告",
+      "notice_date": "2026-08-05",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632440.html"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
-      "title": "关于交易系统测试的通知",
-      "notice_date": "2026-08-04",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260804_832844.html"
+      "title": "关于同意山东省港口集团有限公司取消20号胶、低硫燃料油、原油期货存放点的公告",
+      "notice_date": "2026-08-05",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260805_832865.html"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-04",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260804_832861.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于交易系统测试的通知",
-      "notice_date": "2026-08-04",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260804_832843.html"
+      "title": "上海国际能源交易中心发布关于同意山东省港口集团有限公司取消20号胶、低硫燃料油、原油期货存放点的公告",
+      "notice_date": "2026-08-05",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260805_832866.html"
     }
   ]
 }
