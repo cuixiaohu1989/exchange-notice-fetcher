@@ -28,7 +28,8 @@ DATA_FILE = os.path.join(PROJECT_ROOT, "docs", "data.json")
 BJT = timezone(timedelta(hours=8))
 
 # Pattern for simplified test URLs: end with /YYYYMMDD.html (no content ID)
-TEST_URL_PATTERN = re.compile(r"/\d{8}\.html?$")
+# 限制年份前缀为 19/20，避免误伤 DCE 内容 ID 路径段如 /18632449.html
+TEST_URL_PATTERN = re.compile(r"/(19|20)\d{6}\.s?html?$")
 
 
 def load_json(path, default=None):
