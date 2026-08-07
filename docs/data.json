@@ -1,6 +1,14 @@
 {
   "notices": [
     {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-08-06",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260806_832885.html",
+      "crawled_date": "2026-08-07"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于启用国家粮食和物资储备局河北局一三三处临时存货点的公告",
@@ -401,7 +409,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-06T09:24:54.791591+08:00",
-  "total": 50,
+  "last_update": "2026-08-07T08:32:29.929586+08:00",
+  "total": 51,
   "date": "2026-08-04"
 }
