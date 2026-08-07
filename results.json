@@ -5,9 +5,23 @@
     "start": "2026-08-06",
     "end": "2026-08-06"
   },
-  "total": 1,
+  "total": 3,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "风险提示函",
+      "notice_date": "2026-08-06",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/4a4fdb96bc734599a350cbea9f4237c5.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于动力煤期货2708合约有关事项的公告",
+      "notice_date": "2026-08-06",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/e0ae8206c20a489890ee1d6ade566c15.htm"
+    },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",

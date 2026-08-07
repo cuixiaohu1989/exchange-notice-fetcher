@@ -11,6 +11,22 @@
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
+      "title": "风险提示函",
+      "notice_date": "2026-08-06",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/4a4fdb96bc734599a350cbea9f4237c5.htm",
+      "crawled_date": "2026-08-07"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于动力煤期货2708合约有关事项的公告",
+      "notice_date": "2026-08-06",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/e0ae8206c20a489890ee1d6ade566c15.htm",
+      "crawled_date": "2026-08-07"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
       "title": "关于启用国家粮食和物资储备局河北局一三三处临时存货点的公告",
       "notice_date": "2026-08-05",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/3d489047cb464f6c8e56065532a4dfe7.htm",
@@ -409,7 +425,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-07T08:32:29.929586+08:00",
-  "total": 51,
+  "last_update": "2026-08-07T12:35:17.714538+08:00",
+  "total": 53,
   "date": "2026-08-04"
 }
