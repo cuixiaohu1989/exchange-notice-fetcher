@@ -1,9 +1,40 @@
 {
-  "status": "skipped",
-  "reason": "weekend",
-  "date": "2026-08-09",
-  "date_range": null,
-  "total": 0,
+  "status": "success",
+  "date": "2026-08-10",
+  "date_range": {
+    "start": "2026-08-07",
+    "end": "2026-08-09"
+  },
+  "total": 4,
   "failed_exchanges": [],
-  "notices": []
+  "notices": [
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于公开征集纤维板、胶合板期货指定交割仓库的公告",
+      "notice_date": "2026-08-07",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632555.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于修改《大连商品交易所焦炭期货业务细则》的公告",
+      "notice_date": "2026-08-07",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18632546.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于2026年7月自律监管信息的公告",
+      "notice_date": "2026-08-07",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260807_832889.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于2026年7月自律监管信息的公告",
+      "notice_date": "2026-08-07",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260807_832888.html"
+    }
+  ]
 }
