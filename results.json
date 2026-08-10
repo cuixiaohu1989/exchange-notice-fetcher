@@ -5,9 +5,23 @@
     "start": "2026-08-07",
     "end": "2026-08-09"
   },
-  "total": 4,
+  "total": 6,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于举办2026年期货公司交割结算业务培训班的通知",
+      "notice_date": "2026-08-07",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/b7c7e3d0bdcc4d3aa94dbdfcf606b897.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于调整菜籽油、菜籽粕期货质检机构及质检费用的公告",
+      "notice_date": "2026-08-07",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/9396e92e7b6f41bda802ed0a01211490.htm"
+    },
     {
       "exchange": "DCE",
       "exchange_name": "大商所",
