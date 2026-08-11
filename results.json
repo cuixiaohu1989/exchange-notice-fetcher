@@ -1,47 +1,26 @@
 {
   "status": "success",
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "date_range": {
-    "start": "2026-08-10",
-    "end": "2026-08-10"
+    "start": "2026-08-11",
+    "end": "2026-08-11"
   },
-  "total": 5,
+  "total": 2,
   "failed_exchanges": [],
   "notices": [
     {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意中远海运物流有限公司取消铜、锌、镍期货交割库存放点的公告",
-      "notice_date": "2026-08-10",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260810_832919.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意五矿无锡物流园有限公司调整铜、锡、不锈钢期货交割仓库核定库容的公告",
-      "notice_date": "2026-08-10",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260810_832918.html"
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于就修订棉花、菜籽油、菜籽粕期权合约征求意见的公告",
+      "notice_date": "2026-08-11",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/01b2f1a1ce384875869c370c8be8040f.htm"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-10",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260810_832920.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "违规处理决定公告",
-      "notice_date": "2026-08-10",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260810_832908.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "违规处理决定公告",
-      "notice_date": "2026-08-10",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260810_832907.html"
+      "notice_date": "2026-08-11",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260811_832928.html"
     }
   ]
 }
