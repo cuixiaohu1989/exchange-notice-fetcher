@@ -1,6 +1,22 @@
 {
   "notices": [
     {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于设立2026年广期所“助绿向新”产业实践中心的公告",
+      "notice_date": "2026-08-12",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202608/2b20f2fd1728405a91a55b0fed93a955.shtml",
+      "crawled_date": "2026-08-13"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-08-12",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260812_832941.html",
+      "crawled_date": "2026-08-13"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于就修订棉花、菜籽油、菜籽粕期权合约征求意见的公告",
@@ -529,7 +545,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-12T05:35:15.056946+08:00",
-  "total": 66,
+  "last_update": "2026-08-13T05:34:05.477424+08:00",
+  "total": 68,
   "date": "2026-08-04"
 }
