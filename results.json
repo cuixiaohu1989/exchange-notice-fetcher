@@ -1,9 +1,9 @@
 {
   "status": "success",
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "date_range": {
-    "start": "2026-08-12",
-    "end": "2026-08-12"
+    "start": "2026-08-13",
+    "end": "2026-08-13"
   },
   "total": 2,
   "failed_exchanges": [],
@@ -11,16 +11,16 @@
     {
       "exchange": "GFEX",
       "exchange_name": "广期所",
-      "title": "关于设立2026年广期所“助绿向新”产业实践中心的公告",
-      "notice_date": "2026-08-12",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202608/2b20f2fd1728405a91a55b0fed93a955.shtml"
+      "title": "关于多晶硅期货PS2708合约、碳酸锂期货LC2708合约有关事项的公告",
+      "notice_date": "2026-08-13",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202608/901ed5a38c41422a8cd01e8c5f8f664e.shtml"
     },
     {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "违规处理决定公告",
-      "notice_date": "2026-08-12",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260812_832941.html"
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-08-13",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260813_832962.html"
     }
   ]
 }
