@@ -1,8 +1,10 @@
 {
-  "status": "skipped",
-  "reason": "weekend",
-  "date": "2026-08-16",
-  "date_range": null,
+  "status": "success",
+  "date": "2026-08-17",
+  "date_range": {
+    "start": "2026-08-14",
+    "end": "2026-08-16"
+  },
   "total": 0,
   "failed_exchanges": [],
   "notices": []
