@@ -1,6 +1,14 @@
 {
   "notices": [
     {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于开展“上期大学堂——大宗商品月月谈”2026年第七期线上活动的通知",
+      "notice_date": "2026-08-18",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260818_832996.html",
+      "crawled_date": "2026-08-19"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
@@ -569,7 +577,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-18T03:59:12.580614+08:00",
-  "total": 71,
+  "last_update": "2026-08-19T03:55:49.059753+08:00",
+  "total": 72,
   "date": "2026-08-04"
 }

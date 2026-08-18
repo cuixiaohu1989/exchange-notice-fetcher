@@ -1,19 +1,19 @@
 {
   "status": "success",
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "date_range": {
-    "start": "2026-08-17",
-    "end": "2026-08-17"
+    "start": "2026-08-18",
+    "end": "2026-08-18"
   },
   "total": 1,
   "failed_exchanges": [],
   "notices": [
     {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-17",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260817_832987.html"
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于开展“上期大学堂——大宗商品月月谈”2026年第七期线上活动的通知",
+      "notice_date": "2026-08-18",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260818_832996.html"
     }
   ]
 }
