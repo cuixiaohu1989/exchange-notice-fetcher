@@ -1,19 +1,33 @@
 {
   "status": "success",
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "date_range": {
-    "start": "2026-08-18",
-    "end": "2026-08-18"
+    "start": "2026-08-19",
+    "end": "2026-08-19"
   },
-  "total": 1,
+  "total": 3,
   "failed_exchanges": [],
   "notices": [
     {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加30年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-08-19",
+      "link": "http://www.cffex.com.cn/cn/jystz/20260819/48521.html"
+    },
+    {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加10年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-08-19",
+      "link": "http://www.cffex.com.cn/cn/jystz/20260819/48520.html"
+    },
+    {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于开展“上期大学堂——大宗商品月月谈”2026年第七期线上活动的通知",
-      "notice_date": "2026-08-18",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260818_832996.html"
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-08-19",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260819_833009.html"
     }
   ]
 }

@@ -1,6 +1,30 @@
 {
   "notices": [
     {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加30年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-08-19",
+      "link": "http://www.cffex.com.cn/cn/jystz/20260819/48521.html",
+      "crawled_date": "2026-08-20"
+    },
+    {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加10年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-08-19",
+      "link": "http://www.cffex.com.cn/cn/jystz/20260819/48520.html",
+      "crawled_date": "2026-08-20"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-08-19",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260819_833009.html",
+      "crawled_date": "2026-08-20"
+    },
+    {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于开展“上期大学堂——大宗商品月月谈”2026年第七期线上活动的通知",
@@ -577,7 +601,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-19T03:55:49.059753+08:00",
-  "total": 72,
+  "last_update": "2026-08-20T04:00:31.113381+08:00",
+  "total": 75,
   "date": "2026-08-04"
 }
