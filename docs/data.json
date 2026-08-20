@@ -1,6 +1,78 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于开展棉花、菜籽油、菜籽粕系列期权仿真交易的通知",
+      "notice_date": "2026-08-20",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/3a4330087d2e45d9b05da4bfb41efaf8.htm",
+      "crawled_date": "2026-08-21"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于举办丙烯期货和期权分析师培训的通知",
+      "notice_date": "2026-08-20",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/80e95064af0a404ca1c215a15c95194f.htm",
+      "crawled_date": "2026-08-21"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于做好进一步扩大合格境外投资者参与商品期货、期权交易范围有关事项的通知",
+      "notice_date": "2026-08-20",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260820_833012.html",
+      "crawled_date": "2026-08-21"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于进一步扩大合格境外投资者参与商品期货、期权交易范围的公告",
+      "notice_date": "2026-08-20",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260820_833013.html",
+      "crawled_date": "2026-08-21"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-08-20",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833032.html",
+      "crawled_date": "2026-08-21"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于做好进一步扩大合格境外投资者参与商品期货、期权交易范围有关事项的通知",
+      "notice_date": "2026-08-20",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833017.html",
+      "crawled_date": "2026-08-21"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于进一步扩大合格境外投资者参与商品期货、期权交易范围的公告",
+      "notice_date": "2026-08-20",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833016.html",
+      "crawled_date": "2026-08-21"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于做好进一步扩大合格境外投资者参与商品期货、期权交易范围有关事项的通知",
+      "notice_date": "2026-08-20",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833015.html",
+      "crawled_date": "2026-08-21"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于进一步扩大合格境外投资者参与商品期货、期权交易范围的公告",
+      "notice_date": "2026-08-20",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833014.html",
+      "crawled_date": "2026-08-21"
+    },
+    {
       "exchange": "CFFEX",
       "exchange_name": "中金所",
       "title": "关于增加30年期国债期货合约可交割国债的通知",
@@ -601,7 +673,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-20T04:00:31.113381+08:00",
-  "total": 75,
+  "last_update": "2026-08-21T04:07:17.746302+08:00",
+  "total": 84,
   "date": "2026-08-04"
 }
