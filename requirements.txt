@@ -8,3 +8,6 @@ playwright>=1.45.0
 
 # 测试
 pytest>=8.0.0
+
+# 交易年历 Excel -> JSON
+openpyxl>=3.1.0
