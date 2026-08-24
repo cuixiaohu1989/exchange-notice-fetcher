@@ -58,6 +58,103 @@ body {
   padding: 16px;
 }
 
+/* Calendar reminder card (今日交易提醒) */
+.calendar-card {
+  background: linear-gradient(135deg, #fff7ed 0%, #fffbeb 100%);
+  border: 1.5px solid #fcd34d;
+  border-left: 5px solid #f59e0b;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+.calendar-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.calendar-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #b45309;
+  letter-spacing: 0.5px;
+}
+.calendar-date {
+  font-size: 0.85rem;
+  color: #92400e;
+  font-weight: 600;
+}
+.calendar-event {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  padding: 9px 0;
+  border-top: 1px dashed #fde68a;
+}
+.calendar-event:first-of-type { border-top: none; padding-top: 2px; }
+.calendar-event .ce-field { font-size: 0.92rem; line-height: 1.5; }
+.calendar-event .ce-label {
+  color: #92400e;
+  font-weight: 600;
+  margin-right: 6px;
+}
+.calendar-event .ce-value { color: var(--text); }
+.calendar-event .ce-value.ex-tag {
+  color: #b45309;
+  font-weight: 700;
+}
+/* Calendar table (今日交易提醒 - 表格形式) */
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fffdf7;
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-top: 4px;
+}
+.calendar-table thead {
+  background: #fef3c7;
+}
+.calendar-table th {
+  padding: 9px 14px;
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #92400e;
+  border-bottom: 2px solid #fde68a;
+  white-space: nowrap;
+}
+.calendar-table td {
+  padding: 9px 14px;
+  border-bottom: 1px solid #fde68a;
+  font-size: 0.9rem;
+  vertical-align: middle;
+  color: var(--text);
+}
+.calendar-table tr:last-child td { border-bottom: none; }
+.calendar-table tr:hover { background: #fffbeb; }
+.calendar-table .badge {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #fff;
+}
+.calendar-empty {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  padding: 6px 0;
+}
+.calendar-loading {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  padding: 6px 0;
+}
+
 /* Controls */
 .controls {
   background: var(--card-bg);
@@ -296,6 +393,8 @@ body {
 .ex-DCE .badge, .ex-DCE.active { background: #dc2626; }
 .ex-DCE .dot { background: #dc2626; }
 
+.ex-ALL .badge, .ex-ALL.active { background: #64748b; }
+
 /* Empty state */
 .empty-state {
   text-align: center;
@@ -454,6 +553,17 @@ body {
 </div>
 
 <div class="container">
+  <!-- 今日交易提醒 (来自交易年历) -->
+  <div class="calendar-card" id="calendarCard">
+    <div class="calendar-head">
+      <span class="calendar-title">今日交易提醒</span>
+      <span class="calendar-date" id="calendarDate">--</span>
+    </div>
+    <div class="calendar-body" id="calendarBody">
+      <div class="calendar-loading">正在加载日历...</div>
+    </div>
+  </div>
+
   <!-- Controls -->
   <div class="controls">
     <input type="text" class="search-box" id="searchBox" placeholder="搜索通知标题、关键词...">
@@ -539,6 +649,63 @@ const EXCHANGE_NAMES = {
   CFFEX: '中金所', SHFE: '上期所', GFEX: '广期所',
   INE: '上海能源', CZCE: '郑商所', DCE: '大商所'
 };
+
+// ===== 今日交易提醒（交易年历）=====
+const CAL_HEADERS = { exchange: '交易所', matter: '提示事项', contract: '合约' };
+const CAL_EX_NAMES = {
+  CFFEX: '中金所', SHFE: '上期所', GFEX: '广期所',
+  INE: '上海能源', CZCE: '郑商所', DCE: '大商所', ALL: '全部'
+};
+
+// 返回北京时间当天的 YYYY-MM-DD
+function getBeijingToday() {
+  const now = new Date();
+  const utcMs = now.getTime() + now.getTimezoneOffset() * 60000;
+  const bj = new Date(utcMs + 8 * 3600000);
+  const y = bj.getFullYear();
+  const m = String(bj.getMonth() + 1).padStart(2, '0');
+  const d = String(bj.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+async function loadCalendar() {
+  const dateEl = document.getElementById('calendarDate');
+  const bodyEl = document.getElementById('calendarBody');
+  const today = getBeijingToday();
+  dateEl.textContent = today + '（北京时间）';
+  try {
+    const resp = await fetch('calendar.json?v=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const events = (data.events || []).filter(e => e.date === today);
+
+    if (events.length === 0) {
+      bodyEl.innerHTML = '<div class="calendar-empty">今日（' + today +
+        '）交易年历中无特别提示事项。</div>';
+      return;
+    }
+
+    let html = '<table class="calendar-table"><thead><tr>' +
+      '<th style="width:90px">交易所</th>' +
+      '<th>提示事项</th>' +
+      '<th style="width:230px">合约</th>' +
+      '</tr></thead><tbody>';
+    for (const e of events) {
+      const exKey = e.exchange || '';
+      const exName = exKey ? (CAL_EX_NAMES[exKey] || exKey) : '—';
+      const exClass = exKey ? ('ex-' + exKey) : '';
+      html += '<tr class="' + exClass + '">';
+      html += '<td><span class="badge">' + escapeHtml(exName) + '</span></td>';
+      html += '<td>' + escapeHtml(e.matter || '—') + '</td>';
+      html += '<td>' + escapeHtml(e.contract || '—') + '</td>';
+      html += '</tr>';
+    }
+    html += '</tbody></table>';
+    bodyEl.innerHTML = html;
+  } catch (err) {
+    bodyEl.innerHTML = '<div class="calendar-empty">日历数据加载失败，请稍后刷新页面。</div>';
+  }
+}
 
 async function loadData() {
   try {
@@ -820,6 +987,7 @@ document.getElementById('refreshModal').addEventListener('click', (e) => {
 
 // Init
 loadData();
+loadCalendar();
 </script>
 
 </body>
