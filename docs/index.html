@@ -223,6 +223,60 @@ body {
 }
 .external-link:hover { text-decoration: underline; }
 
+/* Important (keyword) highlight */
+.notices-table tr.important { background: #fff1f0; }
+.notices-table tr.important:hover { background: #ffe3e0; }
+.notices-table tr.important .notice-title {
+  color: #dc2626;
+  font-weight: 700;
+}
+.important-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #fff;
+  background: #dc2626;
+  vertical-align: middle;
+  letter-spacing: 0;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.pagination button {
+  padding: 6px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.15s;
+  min-width: 38px;
+}
+.pagination button:hover:not(:disabled) { border-color: var(--primary); color: var(--primary); }
+.pagination button.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+.pagination button:disabled { opacity: 0.45; cursor: not-allowed; }
+.pagination .page-info {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  padding: 0 4px;
+  white-space: nowrap;
+}
+
 /* Exchange colors */
 .ex-CFFEX .badge, .ex-CFFEX.active { background: #2563eb; }
 .ex-CFFEX .dot { background: #2563eb; }
@@ -472,6 +526,14 @@ body {
 let allNotices = [];
 let activeExchanges = new Set(['CFFEX', 'SHFE', 'GFEX', 'INE', 'CZCE', 'DCE']);
 let sortOrder = 'desc';
+let currentPage = 1;
+const PAGE_SIZE = 20;
+
+const IMPORTANT_KEYWORDS = ['手续费', '保证金', '交易', '风险'];
+function isImportant(title) {
+  const t = title || '';
+  return IMPORTANT_KEYWORDS.some(k => t.indexOf(k) !== -1);
+}
 
 const EXCHANGE_NAMES = {
   CFFEX: '中金所', SHFE: '上期所', GFEX: '广期所',
@@ -501,6 +563,7 @@ async function loadData() {
       document.getElementById('endDate').max = dates[dates.length - 1];
     }
 
+    currentPage = 1;
     renderTable();
   } catch (err) {
     document.getElementById('tableContainer').innerHTML =
@@ -538,11 +601,18 @@ function renderTable() {
 
   document.getElementById('totalCount').textContent = filtered.length;
 
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  if (currentPage > totalPages) currentPage = totalPages;
+  if (currentPage < 1) currentPage = 1;
+
   if (filtered.length === 0) {
     document.getElementById('tableContainer').innerHTML =
       '<div class="empty-state"><div class="icon">-</div><p>没有符合条件的通知</p><p style="margin-top:4px;font-size:0.8rem">尝试调整筛选条件</p></div>';
     return;
   }
+
+  const startIdx = (currentPage - 1) * PAGE_SIZE;
+  const pageItems = filtered.slice(startIdx, startIdx + PAGE_SIZE);
 
   let html = '<table class="notices-table"><thead><tr>' +
     '<th style="width:110px">通知日期</th>' +
@@ -551,21 +621,76 @@ function renderTable() {
     '<th style="width:70px">链接</th>' +
     '</tr></thead><tbody>';
 
-  for (const n of filtered) {
+  for (const n of pageItems) {
     const exClass = 'ex-' + (n.exchange || '');
     const exName = n.exchange_name || EXCHANGE_NAMES[n.exchange] || n.exchange || '';
-    html += '<tr class="' + exClass + '">' +
+    const important = isImportant(n.title);
+    const rowClass = exClass + (important ? ' important' : '');
+    const tagHtml = important ? '<span class="important-tag">重要</span>' : '';
+    html += '<tr class="' + rowClass + '">' +
       '<td>' + (n.notice_date || '-') + '</td>' +
       '<td class="hide-mobile"><span class="badge">' + exName + '</span></td>' +
       '<td><a class="notice-title" href="' + (n.link || '#') + '" target="_blank" rel="noopener">' +
-        escapeHtml(n.title || '(无标题)') + '</a>' +
+        escapeHtml(n.title || '(无标题)') + tagHtml + '</a>' +
         (n.crawled_date ? '<div class="crawled-date">采集于 ' + n.crawled_date + '</div>' : '') +
       '</td>' +
       '<td><a class="external-link" href="' + (n.link || '#') + '" target="_blank" rel="noopener">查看 &rarr;</a></td>' +
     '</tr>';
   }
   html += '</tbody></table>';
+
+  // Pagination controls
+  html += buildPagination(totalPages);
+
   document.getElementById('tableContainer').innerHTML = html;
+  bindPagination();
+}
+
+function getPageNumbers(current, total) {
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+  const pages = [1];
+  const start = Math.max(2, current - 1);
+  const end = Math.min(total - 1, current + 1);
+  if (start > 2) pages.push('...');
+  for (let i = start; i <= end; i++) pages.push(i);
+  if (end < total - 1) pages.push('...');
+  pages.push(total);
+  return pages;
+}
+
+function buildPagination(totalPages) {
+  let html = '<div class="pagination">';
+  html += '<button id="prevPage"' + (currentPage === 1 ? ' disabled' : '') + '>上一页</button>';
+
+  for (const p of getPageNumbers(currentPage, totalPages)) {
+    if (p === '...') {
+      html += '<span class="page-info">...</span>';
+    } else {
+      html += '<button class="page-btn' + (p === currentPage ? ' active' : '') + '" data-page="' + p + '">' + p + '</button>';
+    }
+  }
+
+  html += '<button id="nextPage"' + (currentPage === totalPages ? ' disabled' : '') + '>下一页</button>';
+  html += '<span class="page-info">第 ' + currentPage + ' / ' + totalPages + ' 页</span>';
+  html += '</div>';
+  return html;
+}
+
+function bindPagination() {
+  const prev = document.getElementById('prevPage');
+  const next = document.getElementById('nextPage');
+  if (prev && !prev.disabled) {
+    prev.addEventListener('click', () => { currentPage--; renderTable(); });
+  }
+  if (next && !next.disabled) {
+    next.addEventListener('click', () => { currentPage++; renderTable(); });
+  }
+  document.querySelectorAll('.page-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentPage = parseInt(btn.dataset.page, 10);
+      renderTable();
+    });
+  });
 }
 
 function escapeHtml(s) {
@@ -575,9 +700,9 @@ function escapeHtml(s) {
 }
 
 // Event listeners
-document.getElementById('searchBox').addEventListener('input', renderTable);
-document.getElementById('startDate').addEventListener('change', renderTable);
-document.getElementById('endDate').addEventListener('change', renderTable);
+document.getElementById('searchBox').addEventListener('input', () => { currentPage = 1; renderTable(); });
+document.getElementById('startDate').addEventListener('change', () => { currentPage = 1; renderTable(); });
+document.getElementById('endDate').addEventListener('change', () => { currentPage = 1; renderTable(); });
 
 document.getElementById('clearFilters').addEventListener('click', () => {
   document.getElementById('searchBox').value = '';
@@ -586,6 +711,7 @@ document.getElementById('clearFilters').addEventListener('click', () => {
   // Reset all exchanges to active
   activeExchanges = new Set(['CFFEX', 'SHFE', 'GFEX', 'INE', 'CZCE', 'DCE']);
   document.querySelectorAll('.exchange-tag').forEach(t => t.classList.add('active'));
+  currentPage = 1;
   renderTable();
 });
 
@@ -600,6 +726,7 @@ document.querySelectorAll('.exchange-tag').forEach(tag => {
       activeExchanges.add(ex);
       tag.classList.add('active');
     }
+    currentPage = 1;
     renderTable();
   });
 });
@@ -612,6 +739,7 @@ document.getElementById('sortToggle').addEventListener('click', () => {
     const cmp = (b.notice_date || '').localeCompare(a.notice_date || '');
     return sortOrder === 'desc' ? cmp : -cmp;
   });
+  currentPage = 1;
   renderTable();
 });
 
