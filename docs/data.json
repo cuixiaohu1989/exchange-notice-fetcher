@@ -1,284 +1,44 @@
 {
   "notices": [
     {
-      "exchange": "CFFEX",
-      "exchange_name": "中金所",
-      "title": "关于股指期货和股指期权合约交割的通知",
-      "notice_date": "2026-08-21",
-      "link": "http://www.cffex.com.cn/cn/jystz/20260821/48542.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "CFFEX",
-      "exchange_name": "中金所",
-      "title": "股指期货和股指期权新合约上市通知",
-      "notice_date": "2026-08-21",
-      "link": "http://www.cffex.com.cn/cn/jystz/20260821/48540.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于做好市场风险控制工作的通知",
-      "notice_date": "2026-08-21",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260821_833066.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-21",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260821_833065.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于调整国际铜品种套保持仓额度自动转化标准的通知",
-      "notice_date": "2026-08-21",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260821_833045.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于同意济钢国际物流有限公司放弃20号胶期货交割仓库资格的公告",
-      "notice_date": "2026-08-21",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260821_833037.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于做好市场风险控制工作的通知",
-      "notice_date": "2026-08-21",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260821_833068.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于做好市场风险控制工作的通知",
-      "notice_date": "2026-08-21",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260821_833067.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于调整白银、铜品种套保持仓额度自动转化标准的通知",
-      "notice_date": "2026-08-21",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260821_833060.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于调整国际铜品种套保持仓额度自动转化标准的通知",
-      "notice_date": "2026-08-21",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260821_833054.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于同意济钢国际物流有限公司放弃20号胶期货交割仓库资格的公告",
-      "notice_date": "2026-08-21",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260821_833038.html",
-      "crawled_date": "2026-08-24"
-    },
-    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
-      "title": "关于开展棉花、菜籽油、菜籽粕系列期权仿真交易的通知",
-      "notice_date": "2026-08-20",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/3a4330087d2e45d9b05da4bfb41efaf8.htm",
-      "crawled_date": "2026-08-21"
-    },
-    {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于举办丙烯期货和期权分析师培训的通知",
-      "notice_date": "2026-08-20",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/80e95064af0a404ca1c215a15c95194f.htm",
-      "crawled_date": "2026-08-21"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于做好进一步扩大合格境外投资者参与商品期货、期权交易范围有关事项的通知",
-      "notice_date": "2026-08-20",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260820_833012.html",
-      "crawled_date": "2026-08-21"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于进一步扩大合格境外投资者参与商品期货、期权交易范围的公告",
-      "notice_date": "2026-08-20",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260820_833013.html",
-      "crawled_date": "2026-08-21"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833032.html",
-      "crawled_date": "2026-08-21"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于做好进一步扩大合格境外投资者参与商品期货、期权交易范围有关事项的通知",
-      "notice_date": "2026-08-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833017.html",
-      "crawled_date": "2026-08-21"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于进一步扩大合格境外投资者参与商品期货、期权交易范围的公告",
-      "notice_date": "2026-08-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833016.html",
-      "crawled_date": "2026-08-21"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于做好进一步扩大合格境外投资者参与商品期货、期权交易范围有关事项的通知",
-      "notice_date": "2026-08-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833015.html",
-      "crawled_date": "2026-08-21"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于进一步扩大合格境外投资者参与商品期货、期权交易范围的公告",
-      "notice_date": "2026-08-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260820_833014.html",
-      "crawled_date": "2026-08-21"
-    },
-    {
-      "exchange": "CFFEX",
-      "exchange_name": "中金所",
-      "title": "关于增加30年期国债期货合约可交割国债的通知",
-      "notice_date": "2026-08-19",
-      "link": "http://www.cffex.com.cn/cn/jystz/20260819/48521.html",
-      "crawled_date": "2026-08-20"
-    },
-    {
-      "exchange": "CFFEX",
-      "exchange_name": "中金所",
-      "title": "关于增加10年期国债期货合约可交割国债的通知",
-      "notice_date": "2026-08-19",
-      "link": "http://www.cffex.com.cn/cn/jystz/20260819/48520.html",
-      "crawled_date": "2026-08-20"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-19",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260819_833009.html",
-      "crawled_date": "2026-08-20"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于开展“上期大学堂——大宗商品月月谈”2026年第七期线上活动的通知",
-      "notice_date": "2026-08-18",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260818_832996.html",
-      "crawled_date": "2026-08-19"
+      "title": "关于取消指定棉纱交割厂库资格的公告",
+      "notice_date": "2026-08-26",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/5ed4c350dfc24233b05c665459d95da2.htm",
+      "crawled_date": "2026-08-27"
     },
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-17",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260817_832987.html",
-      "crawled_date": "2026-08-18"
-    },
-    {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于多晶硅期货PS2708合约、碳酸锂期货LC2708合约有关事项的公告",
-      "notice_date": "2026-08-13",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202608/901ed5a38c41422a8cd01e8c5f8f664e.shtml",
-      "crawled_date": "2026-08-14"
+      "notice_date": "2026-08-26",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260826_833109.html",
+      "crawled_date": "2026-08-27"
     },
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-13",
-      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260813_832962.html",
-      "crawled_date": "2026-08-14"
-    },
-    {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于设立2026年广期所“助绿向新”产业实践中心的公告",
-      "notice_date": "2026-08-12",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202608/2b20f2fd1728405a91a55b0fed93a955.shtml",
-      "crawled_date": "2026-08-13"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "违规处理决定公告",
-      "notice_date": "2026-08-12",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260812_832941.html",
-      "crawled_date": "2026-08-13"
-    },
-    {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于就修订棉花、菜籽油、菜籽粕期权合约征求意见的公告",
-      "notice_date": "2026-08-11",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/01b2f1a1ce384875869c370c8be8040f.htm",
-      "crawled_date": "2026-08-12"
+      "title": "关于开展低硫燃料油期权业务全市场演练的通知",
+      "notice_date": "2026-08-26",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260826_833096.html",
+      "crawled_date": "2026-08-27"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-11",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260811_832928.html",
-      "crawled_date": "2026-08-12"
+      "notice_date": "2026-08-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260826_833108.html",
+      "crawled_date": "2026-08-27"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于同意中远海运物流有限公司取消铜、锌、镍期货交割库存放点的公告",
-      "notice_date": "2026-08-10",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260810_832919.html",
-      "crawled_date": "2026-08-11"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意五矿无锡物流园有限公司调整铜、锡、不锈钢期货交割仓库核定库容的公告",
-      "notice_date": "2026-08-10",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260810_832918.html",
-      "crawled_date": "2026-08-11"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-10",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260810_832920.html",
-      "crawled_date": "2026-08-11"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "违规处理决定公告",
-      "notice_date": "2026-08-10",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260810_832908.html",
-      "crawled_date": "2026-08-11"
+      "title": "关于开展热轧卷板、不锈钢期权业务全市场演练的通知",
+      "notice_date": "2026-08-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260826_833095.html",
+      "crawled_date": "2026-08-27"
     },
     {
       "exchange": "DCE",
@@ -761,7 +521,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-24T22:29:53.587169+08:00",
-  "total": 95,
+  "last_update": "2026-08-27T21:03:34.288756+08:00",
+  "total": 65,
   "date": "2026-08-04"
 }
