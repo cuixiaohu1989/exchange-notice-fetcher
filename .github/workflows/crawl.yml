@@ -30,6 +30,7 @@ jobs:
           playwright install-deps chromium
 
       - name: Run crawler
+        continue-on-error: true
         run: python main.py --headless
         env:
           PLAYWRIGHT_BROWSERS_PATH: ${{ env.HOME }}/.cache/ms-playwright
