@@ -36,6 +36,7 @@ jobs:
           PLAYWRIGHT_BROWSERS_PATH: ${{ env.HOME }}/.cache/ms-playwright
 
       - name: Write to Tencent Docs
+        continue-on-error: true
         run: python scripts/write_to_tdocs_cloud.py
         env:
           TDOC_ACCESS_TOKEN: ${{ secrets.TDOC_ACCESS_TOKEN }}
