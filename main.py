@@ -78,9 +78,16 @@ def main():
     else:
         logger.info("调试模式：未写入文件")
 
-    # 退出码：有失败交易所时返回1
+    # 退出策略：
+    # - 单家交易所偶发失败（WAF 挑战/网络抖动）在 CI 上很常见，
+    #   不应让整个 workflow 失败而跳过 merge/deploy，否则已采到的数据也无法发布。
+    # - 因此无论是否有失败交易所，main 始终 exit 0，把"是否完整"记录在结果里供日志查看。
+    # - 真正的致命错误（如 import 失败、语法错误）会让 Python 以非 0 退出，那才是 workflow 该失败的。
     if result.get("failed_exchanges"):
-        sys.exit(1)
+        logger.warning(
+            f"以下交易所本次采集失败（已隔离，不影响其他家）: "
+            f"{', '.join(result['failed_exchanges'])}"
+        )
 
 
 if __name__ == "__main__":
