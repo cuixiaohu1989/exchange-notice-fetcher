@@ -56,8 +56,8 @@ def get_headers():
     open_id = os.environ.get("TDOC_OPEN_ID", "")
 
     if not all([token, client_id, open_id]):
-        print("错误: 需要设置环境变量 TDOC_ACCESS_TOKEN, TDOC_CLIENT_ID, TDOC_OPEN_ID")
-        sys.exit(1)
+        print("警告: 未设置 TDOC 环境变量，跳过腾讯文档写入（不影响网页发布）")
+        return None
 
     return {
         "Access-Token": token,
@@ -188,6 +188,9 @@ def main():
 
     # 2. 获取认证头
     headers = get_headers()
+    if headers is None:
+        print("跳过腾讯文档写入（缺少凭证）")
+        return
 
     # 3. 获取内部 fileID (优先使用配置的，备选通过转换器获取)
     internal_file_id = INTERNAL_FILE_ID
@@ -248,8 +251,8 @@ def main():
         save_state(state)
         print(f"状态已更新: last_row={state['last_row']}, 总计 {len(written_keys)} 条")
     else:
-        print("写入失败!")
-        sys.exit(1)
+        print("写入失败，跳过腾讯文档写入（不影响网页发布）")
+        return
 
     print(f"\n腾讯文档链接: {SPREADSHEET_URL}")
 
