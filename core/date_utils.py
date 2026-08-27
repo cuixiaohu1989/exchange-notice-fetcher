@@ -34,8 +34,8 @@ def get_fetch_date_range() -> tuple[date, date]:
     if weekday == 0:  # 周一
         start = today - timedelta(days=3)  # 上周五
         end = today - timedelta(days=1)    # 上周日
-    else:  # 周二到周五
-        start = today - timedelta(days=1)
+    else:  # 周二到周五：抓最近 3 天（容错单日/连续失败导致的数据丢失）
+        start = today - timedelta(days=3)
         end = today - timedelta(days=1)
 
     return start, end
