@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "date_range": {
-    "start": "2026-08-24",
-    "end": "2026-08-26"
+    "start": "2026-08-25",
+    "end": "2026-08-27"
   },
-  "total": 11,
+  "total": 12,
   "failed_exchanges": [],
   "notices": [
     {
@@ -16,11 +16,25 @@
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/8/5ed4c350dfc24233b05c665459d95da2.htm"
     },
     {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于违规案件处理情况的公告",
-      "notice_date": "2026-08-24",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202608/d179f5e48225451b91f023dd8a9b7b71.shtml"
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于扩大焦煤、焦炭品种指定仓库协议库容的公告",
+      "notice_date": "2026-08-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18633173.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于设立焦炭品种指定交割仓库的公告",
+      "notice_date": "2026-08-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18633169.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于设立焦煤品种指定交割仓库的公告",
+      "notice_date": "2026-08-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18633166.html"
     },
     {
       "exchange": "DCE",
@@ -30,11 +44,11 @@
       "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18633050.html"
     },
     {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于开展部分化工品期货服务出口定价试点项目的通知",
-      "notice_date": "2026-08-24",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18633029.html"
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于同意上海洋山保税港区世天威物流有限公司放弃国际铜及20号胶期货交割仓库资格的公告",
+      "notice_date": "2026-08-27",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260827_833116.html"
     },
     {
       "exchange": "INE",
@@ -49,6 +63,13 @@
       "title": "关于开展低硫燃料油期权业务全市场演练的通知",
       "notice_date": "2026-08-26",
       "link": "https://www.ine.cn/publicnotice/notice/202608/t20260826_833096.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于同意上海洋山保税港区世天威物流有限公司放弃国际铜及20号胶期货交割仓库资格的公告",
+      "notice_date": "2026-08-27",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260827_833117.html"
     },
     {
       "exchange": "SHFE",
@@ -70,20 +91,6 @@
       "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-08-25",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260825_833092.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-08-24",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260824_833083.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于发布《上海期货交易所不锈钢期货业务细则（修订版）》的公告",
-      "notice_date": "2026-08-24",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260824_833073.html"
     }
   ]
 }

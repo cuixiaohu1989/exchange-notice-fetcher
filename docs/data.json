@@ -1,6 +1,46 @@
 {
   "notices": [
     {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于扩大焦煤、焦炭品种指定仓库协议库容的公告",
+      "notice_date": "2026-08-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18633173.html",
+      "crawled_date": "2026-08-28"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于设立焦炭品种指定交割仓库的公告",
+      "notice_date": "2026-08-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18633169.html",
+      "crawled_date": "2026-08-28"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于设立焦煤品种指定交割仓库的公告",
+      "notice_date": "2026-08-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18633166.html",
+      "crawled_date": "2026-08-28"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于同意上海洋山保税港区世天威物流有限公司放弃国际铜及20号胶期货交割仓库资格的公告",
+      "notice_date": "2026-08-27",
+      "link": "https://www.ine.cn/publicnotice/notice/202608/t20260827_833116.html",
+      "crawled_date": "2026-08-28"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于同意上海洋山保税港区世天威物流有限公司放弃国际铜及20号胶期货交割仓库资格的公告",
+      "notice_date": "2026-08-27",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202608/t20260827_833117.html",
+      "crawled_date": "2026-08-28"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于取消指定棉纱交割厂库资格的公告",
@@ -849,7 +889,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-08-27T22:42:01.805640+08:00",
-  "total": 106,
+  "last_update": "2026-08-28T11:37:55.642874+08:00",
+  "total": 111,
   "date": "2026-08-04"
 }
