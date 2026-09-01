@@ -1,6 +1,38 @@
 {
   "notices": [
     {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于公布低硫燃料油期权及部分期货、期权品种做市商名单的公告",
+      "notice_date": "2026-09-01",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260901_833188.html",
+      "crawled_date": "2026-09-02"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-09-01",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833192.html",
+      "crawled_date": "2026-09-02"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于公布低硫燃料油期权及部分期货、期权品种做市商名单的公告",
+      "notice_date": "2026-09-01",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833189.html",
+      "crawled_date": "2026-09-02"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于公布不锈钢、热轧卷板期权及部分期货、期权品种做市商名单的公告",
+      "notice_date": "2026-09-01",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833187.html",
+      "crawled_date": "2026-09-02"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于开展2026年度高级分析师征集活动的通知",
@@ -1009,7 +1041,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-01T07:15:42.290980+08:00",
-  "total": 126,
+  "last_update": "2026-09-02T05:48:37.440107+08:00",
+  "total": 130,
   "date": "2026-08-04"
 }

@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "date_range": {
-    "start": "2026-08-29",
-    "end": "2026-08-31"
+    "start": "2026-08-30",
+    "end": "2026-09-01"
   },
-  "total": 7,
+  "total": 12,
   "failed_exchanges": [],
   "notices": [
     {
@@ -25,6 +25,13 @@
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
+      "title": "关于公布低硫燃料油期权及部分期货、期权品种做市商名单的公告",
+      "notice_date": "2026-09-01",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260901_833188.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-08-31",
       "link": "https://www.ine.cn/publicnotice/notice/202608/t20260831_833175.html"
@@ -35,6 +42,34 @@
       "title": "关于低硫燃料油期权上市交易有关事项的通知",
       "notice_date": "2026-08-31",
       "link": "https://www.ine.cn/publicnotice/notice/202608/t20260831_833172.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-09-01",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833192.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-09-01",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833191.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于公布低硫燃料油期权及部分期货、期权品种做市商名单的公告",
+      "notice_date": "2026-09-01",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833189.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于公布不锈钢、热轧卷板期权及部分期货、期权品种做市商名单的公告",
+      "notice_date": "2026-09-01",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833187.html"
     },
     {
       "exchange": "SHFE",
