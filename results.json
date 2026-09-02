@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "date_range": {
-    "start": "2026-08-30",
-    "end": "2026-09-01"
+    "start": "2026-08-31",
+    "end": "2026-09-02"
   },
-  "total": 12,
+  "total": 14,
   "failed_exchanges": [],
   "notices": [
     {
@@ -42,6 +42,20 @@
       "title": "关于低硫燃料油期权上市交易有关事项的通知",
       "notice_date": "2026-08-31",
       "link": "https://www.ine.cn/publicnotice/notice/202608/t20260831_833172.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-09-02",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260902_833213.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意上海裕强供应链管理有限公司调整铜、铝、锌期货库容的公告",
+      "notice_date": "2026-09-02",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260902_833203.html"
     },
     {
       "exchange": "SHFE",
