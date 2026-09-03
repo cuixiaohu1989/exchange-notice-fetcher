@@ -1,6 +1,14 @@
 {
   "notices": [
     {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-09-03",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260903_833218.html",
+      "crawled_date": "2026-09-04"
+    },
+    {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
@@ -1057,7 +1065,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-03T05:51:13.382992+08:00",
-  "total": 132,
+  "last_update": "2026-09-04T05:44:54.417926+08:00",
+  "total": 133,
   "date": "2026-08-04"
 }
