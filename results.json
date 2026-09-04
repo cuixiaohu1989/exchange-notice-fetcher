@@ -1,68 +1,9 @@
 {
-  "status": "success",
-  "date": "2026-09-04",
-  "date_range": {
-    "start": "2026-09-01",
-    "end": "2026-09-03"
-  },
-  "total": 8,
+  "status": "skipped",
+  "reason": "weekend",
+  "date": "2026-09-05",
+  "date_range": null,
+  "total": 0,
   "failed_exchanges": [],
-  "notices": [
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-09-03",
-      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260903_833218.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于公布低硫燃料油期权及部分期货、期权品种做市商名单的公告",
-      "notice_date": "2026-09-01",
-      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260901_833188.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-09-02",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260902_833213.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意上海裕强供应链管理有限公司调整铜、铝、锌期货库容的公告",
-      "notice_date": "2026-09-02",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260902_833203.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "违规处理决定公告",
-      "notice_date": "2026-09-01",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833192.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "违规处理决定公告",
-      "notice_date": "2026-09-01",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833191.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于公布低硫燃料油期权及部分期货、期权品种做市商名单的公告",
-      "notice_date": "2026-09-01",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833189.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于公布不锈钢、热轧卷板期权及部分期货、期权品种做市商名单的公告",
-      "notice_date": "2026-09-01",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260901_833187.html"
-    }
-  ]
+  "notices": []
 }
