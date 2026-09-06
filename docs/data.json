@@ -1,6 +1,22 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于动力煤期货2709合约有关事项的公告",
+      "notice_date": "2026-09-04",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/555adaf4235c4f90bdac2b249854a599.htm",
+      "crawled_date": "2026-09-07"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于征集工业硅期货指定交割库的公告",
+      "notice_date": "2026-09-04",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202609/f56a3199c94b4cc8870f5548b1f14593.shtml",
+      "crawled_date": "2026-09-07"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
@@ -1065,7 +1081,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-06T05:12:44.301518+08:00",
-  "total": 133,
+  "last_update": "2026-09-07T05:22:10.570079+08:00",
+  "total": 135,
   "date": "2026-08-04"
 }
