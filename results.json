@@ -1,26 +1,11 @@
 {
   "status": "success",
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "date_range": {
-    "start": "2026-09-04",
-    "end": "2026-09-06"
+    "start": "2026-09-05",
+    "end": "2026-09-07"
   },
-  "total": 2,
+  "total": 0,
   "failed_exchanges": [],
-  "notices": [
-    {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于动力煤期货2709合约有关事项的公告",
-      "notice_date": "2026-09-04",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/555adaf4235c4f90bdac2b249854a599.htm"
-    },
-    {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于征集工业硅期货指定交割库的公告",
-      "notice_date": "2026-09-04",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202609/f56a3199c94b4cc8870f5548b1f14593.shtml"
-    }
-  ]
+  "notices": []
 }
