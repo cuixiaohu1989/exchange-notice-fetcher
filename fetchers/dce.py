@@ -20,7 +20,7 @@ class DCEFetcher(PlaywrightFetcher):
     """大商所通知爬虫（Playwright + 瑞数 WAF 绕过）"""
 
     def _navigate(self, page) -> bool:
-        """瑞数 WAF 绕过导航"""
+        """瑞数 WAF 绕过导航（动态等待内容出现，兼容 CI 上 Chromium 较慢的 WAF 首次执行）"""
         try:
             self.logger.info(f"[{self.name}] 导航到 {self.config['url']}")
             page.goto(
@@ -29,7 +29,17 @@ class DCEFetcher(PlaywrightFetcher):
                 timeout=30000,
             )
 
-            # 等待 WAF JS 执行 + 页面重载 + 内容加载
+            # 瑞数 WAF 首次执行可能较慢，循环等待列表出现，最多 30 秒
+            for i in range(15):
+                try:
+                    page.wait_for_selector("div.text-list-wrap a.ellipsis", timeout=2000)
+                    self.logger.info(f"[{self.name}] 列表已加载（ waited {i * 2}s ）")
+                    return True
+                except Exception:
+                    pass
+                time.sleep(2)
+
+            # 兜底：等 networkidle
             try:
                 page.wait_for_load_state("networkidle", timeout=30000)
             except Exception:
@@ -51,7 +61,7 @@ class DCEFetcher(PlaywrightFetcher):
         except Exception:
             self.logger.warning(f"[{self.name}] 等待通知列表超时")
 
-    def _parse_page(self, page) -> List[Notice]:
+    def _parse_items(self, page) -> List[Notice]:
         """解析 DCE 通知列表（新版页面结构）"""
         items = page.query_selector_all("div.text-list-wrap > a.ellipsis")
         self.logger.info(f"[{self.name}] 找到 {len(items)} 个通知链接")
@@ -94,4 +104,17 @@ class DCEFetcher(PlaywrightFetcher):
                 continue
 
         self.logger.info(f"[{self.name}] 解析到 {len(notices)} 条通知")
+        return notices
+
+    def _parse_page(self, page) -> List[Notice]:
+        """解析页面；若未解析到内容，刷新重试一次（应对 CI 上 WAF 首次加载偶发空白）"""
+        notices = self._parse_items(page)
+        if not notices:
+            self.logger.warning(f"[{self.name}] 首次解析为空，尝试刷新重试")
+            try:
+                page.reload(wait_until="networkidle", timeout=30000)
+                time.sleep(3)
+                notices = self._parse_items(page)
+            except Exception as e:
+                self.logger.warning(f"[{self.name}] 刷新重试失败: {e}")
         return notices
