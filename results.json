@@ -1,13 +1,20 @@
 {
   "status": "success",
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "date_range": {
-    "start": "2026-09-05",
-    "end": "2026-09-07"
+    "start": "2026-09-06",
+    "end": "2026-09-08"
   },
-  "total": 2,
+  "total": 8,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整原木等期货品种手续费标准的通知",
+      "notice_date": "2026-09-08",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18634003.html"
+    },
     {
       "exchange": "DCE",
       "exchange_name": "大商所",
@@ -21,6 +28,41 @@
       "title": "关于调整铁矿石期货合约交易限额的通知",
       "notice_date": "2026-09-07",
       "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18633747.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于2026年8月自律监管信息的公告",
+      "notice_date": "2026-09-08",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260908_833274.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-09-08",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260908_833288.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意上港云仓（上海）仓储管理有限公司调整铜期货存放点的公告",
+      "notice_date": "2026-09-08",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260908_833279.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-09-08",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260908_833269.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于2026年8月自律监管信息的公告",
+      "notice_date": "2026-09-08",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260908_833270.html"
     }
   ]
 }
