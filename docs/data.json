@@ -1,6 +1,54 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "风险提示函",
+      "notice_date": "2026-09-09",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/eb9d3b12d4d249cf8050270aace7b662.htm",
+      "crawled_date": "2026-09-10"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于低硫燃料油期权合约上市挂牌基准价的通知",
+      "notice_date": "2026-09-09",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260909_833331.html",
+      "crawled_date": "2026-09-10"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于交易系统测试的通知",
+      "notice_date": "2026-09-09",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260909_833316.html",
+      "crawled_date": "2026-09-10"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于热轧卷板期权、不锈钢期权合约上市挂牌基准价的通知",
+      "notice_date": "2026-09-09",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260909_833333.html",
+      "crawled_date": "2026-09-10"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于低硫燃料油期权合约上市挂牌基准价的通知",
+      "notice_date": "2026-09-09",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260909_833332.html",
+      "crawled_date": "2026-09-10"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于交易系统测试的通知",
+      "notice_date": "2026-09-09",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260909_833317.html",
+      "crawled_date": "2026-09-10"
+    },
+    {
       "exchange": "DCE",
       "exchange_name": "大商所",
       "title": "关于调整原木等期货品种手续费标准的通知",
@@ -1145,7 +1193,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-09T05:53:02.514030+08:00",
-  "total": 143,
+  "last_update": "2026-09-10T05:41:50.802787+08:00",
+  "total": 149,
   "date": "2026-08-04"
 }
