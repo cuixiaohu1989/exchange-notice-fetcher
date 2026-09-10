@@ -3,6 +3,46 @@
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
+      "title": "关于就《郑州商品交易所集团交割业务管理办法（征求意见稿）》对外征求意见的公告",
+      "notice_date": "2026-09-10",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/acb855ac33e5449b928c7c4c6266fda1.htm",
+      "crawled_date": "2026-09-11"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于就修订《郑州商品交易所指定商品交割仓库管理办法》《郑州商品交易所指定商品交割厂库管理办法》征求意见的公告",
+      "notice_date": "2026-09-10",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/4ca6e1d3d28d419bb4cf65cbe4ecee4a.htm",
+      "crawled_date": "2026-09-11"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于就修订《郑州商品交易所棉纱期货业务细则》征求意见的公告",
+      "notice_date": "2026-09-10",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/54f8cb61a94f40ca8552c59e6a1edcce.htm",
+      "crawled_date": "2026-09-11"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-09-10",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260910_833351.html",
+      "crawled_date": "2026-09-11"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意中国石化炼油销售有限公司新增石油沥青注册生产企业的公告",
+      "notice_date": "2026-09-10",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260910_833342.html",
+      "crawled_date": "2026-09-11"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
       "title": "风险提示函",
       "notice_date": "2026-09-09",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/eb9d3b12d4d249cf8050270aace7b662.htm",
@@ -1193,7 +1233,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-10T05:41:50.802787+08:00",
-  "total": 149,
+  "last_update": "2026-09-11T05:39:49.832170+08:00",
+  "total": 154,
   "date": "2026-08-04"
 }
