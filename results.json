@@ -1,173 +1,47 @@
 {
   "status": "success",
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "date_range": {
-    "start": "2026-09-11",
-    "end": "2026-09-13"
+    "start": "2026-09-12",
+    "end": "2026-09-14"
   },
-  "total": 23,
+  "total": 5,
   "failed_exchanges": [],
   "notices": [
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
-      "title": "关于油菜籽期货做市商名单的公告",
-      "notice_date": "2026-09-11",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/43491604861046b9ae74e39ad17b306a.htm"
-    },
-    {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于调整指定油菜籽交割仓库、厂库及车（船）板交割服务机构的公告",
-      "notice_date": "2026-09-11",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/d7ed55b0d0c3494c9f1eccd608696007.htm"
-    },
-    {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于调整油菜籽期货合约交易保证金标准、涨跌停板幅度和交易手续费标准的通知",
-      "notice_date": "2026-09-11",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/57263fe37d994e6292602043c9c770ad.htm"
-    },
-    {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于油菜籽期货合约挂牌有关事项的公告",
-      "notice_date": "2026-09-11",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/5c7915355ee1481fb465afbc67e1b0e1.htm"
-    },
-    {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于发布油菜籽期货合约及期货业务细则修订案的公告",
-      "notice_date": "2026-09-11",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/bb765c6a368e421aa4740f7bf573a6f3.htm"
-    },
-    {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于发布《郑州商品交易所期货结算管理办法》修订案的公告",
-      "notice_date": "2026-09-11",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/9fe54f202232471483d510455c3e5687.htm"
-    },
-    {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于发布《郑州商品交易所期货交易管理办法》修订案的公告",
-      "notice_date": "2026-09-11",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/8e291a0efdd34851b2e3202fd9b43330.htm"
-    },
-    {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于修改《广州期货交易所交易管理办法》的通知",
-      "notice_date": "2026-09-11",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202609/f00feae240a040af914e6b3ddef05740.shtml"
-    },
-    {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于多晶硅期货PS2709合约、碳酸锂期货LC2709合约有关事项的公告",
-      "notice_date": "2026-09-11",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202609/3495c82e9e1c404ba4456b24a8723058.shtml"
-    },
-    {
-      "exchange": "CFFEX",
-      "exchange_name": "中金所",
-      "title": "关于发布国债期货合约可交割国债的通知",
-      "notice_date": "2026-09-11",
-      "link": "http://www.cffex.com.cn/cn/jystz/20260911/48582.html"
-    },
-    {
-      "exchange": "CFFEX",
-      "exchange_name": "中金所",
-      "title": "国债期货新合约上市通知",
-      "notice_date": "2026-09-11",
-      "link": "http://www.cffex.com.cn/cn/jystz/20260911/48580.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于做好市场风险控制工作的通知",
-      "notice_date": "2026-09-11",
-      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260911_833376.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于调整原油、低硫燃料油期货相关合约交易限额的通知",
-      "notice_date": "2026-09-11",
-      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260911_833374.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于调整原油、低硫燃料油期货相关合约涨跌停板幅度和交易保证金比例的通知",
-      "notice_date": "2026-09-11",
-      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260911_833372.html"
+      "title": "关于召开油菜籽期货业务规则宣讲会的通知",
+      "notice_date": "2026-09-14",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/f1a7d279eebd408dbac0a88d98151bf1.htm"
     },
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-09-11",
-      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260911_833371.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于发布《上海国际能源交易中心交易细则》（修订案）的公告",
-      "notice_date": "2026-09-11",
-      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260911_833358.html"
+      "notice_date": "2026-09-14",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260914_833420.html"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于做好市场风险控制工作的通知",
-      "notice_date": "2026-09-11",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260911_833384.html"
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-09-14",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260914_833417.html"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于调整燃料油期货相关合约交易限额的通知",
-      "notice_date": "2026-09-11",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260911_833383.html"
+      "title": "关于同意浙江传化合成材料股份有限公司变更“传化”牌丁二烯橡胶产品外包装袋的公告",
+      "notice_date": "2026-09-14",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260914_833405.html"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
-      "title": "关于调整燃料油期货相关合约涨跌停板幅度和交易保证金比例的通知",
-      "notice_date": "2026-09-11",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260911_833382.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于调整原油、低硫燃料油期货相关合约交易限额的通知",
-      "notice_date": "2026-09-11",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260911_833375.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于调整原油、低硫燃料油期货相关合约涨跌停板幅度和交易保证金比例的通知",
-      "notice_date": "2026-09-11",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260911_833373.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "违规处理决定公告",
-      "notice_date": "2026-09-11",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260911_833360.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于发布《上海期货交易所交易管理办法》（修订案）的公告",
-      "notice_date": "2026-09-11",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260911_833356.html"
+      "title": "关于“Rosenthal”牌成为上海期货交易所纸浆期货可交割品牌的通知",
+      "notice_date": "2026-09-14",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260914_833404.html"
     }
   ]
 }
