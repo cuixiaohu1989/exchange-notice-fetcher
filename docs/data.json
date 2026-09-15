@@ -1,6 +1,14 @@
 {
   "notices": [
     {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意中天钢铁集团有限公司及宏旺控股集团有限公司变更在我所注册产品标牌的公告",
+      "notice_date": "2026-09-15",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260915_833447.html",
+      "crawled_date": "2026-09-16"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于召开油菜籽期货业务规则宣讲会的通知",
@@ -1457,7 +1465,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-15T06:32:43.170607+08:00",
-  "total": 182,
+  "last_update": "2026-09-16T06:13:51.023971+08:00",
+  "total": 183,
   "date": "2026-08-04"
 }

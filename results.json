@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "date_range": {
-    "start": "2026-09-12",
-    "end": "2026-09-14"
+    "start": "2026-09-13",
+    "end": "2026-09-15"
   },
-  "total": 5,
+  "total": 6,
   "failed_exchanges": [],
   "notices": [
     {
@@ -21,6 +21,13 @@
       "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-09-14",
       "link": "https://www.ine.cn/publicnotice/notice/202609/t20260914_833420.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意中天钢铁集团有限公司及宏旺控股集团有限公司变更在我所注册产品标牌的公告",
+      "notice_date": "2026-09-15",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260915_833447.html"
     },
     {
       "exchange": "SHFE",
