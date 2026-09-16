@@ -1,13 +1,20 @@
 {
   "status": "success",
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "date_range": {
-    "start": "2026-09-13",
-    "end": "2026-09-15"
+    "start": "2026-09-14",
+    "end": "2026-09-16"
   },
-  "total": 6,
+  "total": 13,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于发布《郑州商品交易所烧碱期货业务细则》《郑州商品交易所丙烯期货业务细则》修订案的公告",
+      "notice_date": "2026-09-16",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/1ab3abab78aa463ebd406a49f9d011d7.htm"
+    },
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
@@ -16,11 +23,53 @@
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/f1a7d279eebd408dbac0a88d98151bf1.htm"
     },
     {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于2026年国庆节期间交易时间安排的通知",
+      "notice_date": "2026-09-14",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19622678.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于2026年中秋节期间交易时间安排的通知",
+      "notice_date": "2026-09-14",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19622674.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于就修订《上海国际能源交易中心实际控制关系账户管理细则》公开征求意见的公告",
+      "notice_date": "2026-09-16",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260916_833455.html"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-09-14",
       "link": "https://www.ine.cn/publicnotice/notice/202609/t20260914_833420.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于调整锡品种套保持仓额度自动转化标准的通知",
+      "notice_date": "2026-09-16",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260916_833466.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于就修订《上海期货交易所实际控制关系账户管理办法》公开征求意见的公告",
+      "notice_date": "2026-09-16",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260916_833457.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于就修订《上海国际能源交易中心实际控制关系账户管理细则》公开征求意见的公告",
+      "notice_date": "2026-09-16",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260916_833456.html"
     },
     {
       "exchange": "SHFE",
