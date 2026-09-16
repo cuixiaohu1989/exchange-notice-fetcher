@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T06:13:52.198865+08:00",
+  "generated_at": "2026-09-16T20:12:52.563982+08:00",
   "source_file": "交易年历.xlsx",
   "source_sheet": "Daily_Notices",
   "headers": {
@@ -8,7 +8,7 @@
     "matter": "提示事项",
     "contract": "合约"
   },
-  "event_count": 1811,
+  "event_count": 1823,
   "events": [
     {
       "date": "2026-01-05",
@@ -320,7 +320,7 @@
       "date": "2026-01-19",
       "exchange": "CZCE",
       "matter": "合约上市日",
-      "contract": "AP2701   CF2701   CJ2701   CY2701   FG2701   JR2701   LR2701   MA2701   OI2701   PF2701   PK2701   PL2701   PM2701   PR2701   PX2701   RI2701   RM2701   SA2701   SF2701   SH2701   SM2701   SR2701   TA2701   UR2701   WH2701"
+      "contract": "AP2701   CF2701   CJ2701   CY2701   FG2701   JR2701   MA2701   OI2701   PF2701   PK2701   PL2701   PM2701   PR2701   PX2701   RI2701   RM2701   SA2701   SF2701   SH2701   SM2701   SR2701   TA2701   UR2701   WH2701"
     },
     {
       "date": "2026-01-19",
@@ -1226,7 +1226,7 @@
       "date": "2026-02-13",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 10%",
-      "contract": "AP2603   CF2603   CY2603   FG2603   JR2603   LR2603   MA2603   OI2603   PF2603   PK2603   PL2603   PM2603   PR2603   RI2603   RM2603   SA2603   SF2603   SH2603   SM2603   SR2603   TA2603   UR2603   WH2603   ZC2603"
+      "contract": "AP2603   CF2603   CY2603   FG2603   JR2603   MA2603   OI2603   PF2603   PK2603   PL2603   PM2603   PR2603   RI2603   RM2603   SA2603   SF2603   SH2603   SM2603   SR2603   TA2603   UR2603   WH2603   ZC2603"
     },
     {
       "date": "2026-02-13",
@@ -1706,13 +1706,13 @@
       "date": "2026-02-27",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 20%",
-      "contract": "AP2603   CF2603   CJ2603   CY2603   FG2603   JR2603   LR2603   MA2603   OI2603   PF2603   PK2603   PL2603   PM2603   PR2603   PX2603   RI2603   RM2603   SA2603   SF2603   SH2603   SM2603   SR2603   TA2603   UR2603   WH2603   ZC2603"
+      "contract": "AP2603   CF2603   CJ2603   CY2603   FG2603   JR2603   MA2603   OI2603   PF2603   PK2603   PL2603   PM2603   PR2603   PX2603   RI2603   RM2603   SA2603   SF2603   SH2603   SM2603   SR2603   TA2603   UR2603   WH2603   ZC2603"
     },
     {
       "date": "2026-02-27",
       "exchange": "CZCE",
       "matter": "自然人客户持仓应调整为0",
-      "contract": "AP2603   CF2603   CJ2603   CY2603   FG2603   JR2603   LR2603   MA2603   OI2603   PF2603   PK2603   PL2603   PM2603   PR2603   PX2603   RI2603   RM2603   SA2603   SF2603   SH2603   SM2603   SR2603   TA2603   UR2603   WH2603   ZC2603"
+      "contract": "AP2603   CF2603   CJ2603   CY2603   FG2603   JR2603   MA2603   OI2603   PF2603   PK2603   PL2603   PM2603   PR2603   PX2603   RI2603   RM2603   SA2603   SF2603   SH2603   SM2603   SR2603   TA2603   UR2603   WH2603   ZC2603"
     },
     {
       "date": "2026-02-27",
@@ -1970,7 +1970,7 @@
       "date": "2026-03-13",
       "exchange": "CZCE",
       "matter": "合约最后交易日",
-      "contract": "AP2603   CF2603   CJ2603   CY2603   FG2603   JR2603   LR2603   MA2603   OI2603   PF2603   PK2603   PL2603   PM2603   PR2603   PX2603   RI2603   RM2603   SA2603   SF2603   SH2603   SM2603   SR2603   TA2603   UR2603   WH2603"
+      "contract": "AP2603   CF2603   CJ2603   CY2603   FG2603   JR2603   MA2603   OI2603   PF2603   PK2603   PL2603   PM2603   PR2603   PX2603   RI2603   RM2603   SA2603   SF2603   SH2603   SM2603   SR2603   TA2603   UR2603   WH2603"
     },
     {
       "date": "2026-03-13",
@@ -2036,7 +2036,7 @@
       "date": "2026-03-16",
       "exchange": "CZCE",
       "matter": "合约上市日",
-      "contract": "AP2703   CF2703   CJ2703   CY2703   FG2703   JR2703   LR2703   MA2703   OI2703   PF2703   PK2703   PL2703   PM2703   PR2703   PX2703   RI2703   RM2703   SA2703   SF2703   SH2703   SM2703   SR2703   TA2703   UR2703   WH2703"
+      "contract": "AP2703   CF2703   CJ2703   CY2703   FG2703   JR2703   MA2703   OI2703   PF2703   PK2703   PL2703   PM2703   PR2703   PX2703   RI2703   RM2703   SA2703   SF2703   SH2703   SM2703   SR2703   TA2703   UR2703   WH2703"
     },
     {
       "date": "2026-03-16",
@@ -2864,7 +2864,7 @@
       "date": "2026-04-15",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 10%",
-      "contract": "AP2605   CF2605   CY2605   FG2605   JR2605   LR2605   MA2605   OI2605   PF2605   PK2605   PL2605   PM2605   PR2605   RI2605   RM2605   SA2605   SF2605   SH2605   SM2605   SR2605   TA2605   UR2605   WH2605   ZC2605"
+      "contract": "AP2605   CF2605   CY2605   FG2605   JR2605   MA2605   OI2605   PF2605   PK2605   PL2605   PM2605   PR2605   RI2605   RM2605   SA2605   SF2605   SH2605   SM2605   SR2605   TA2605   UR2605   WH2605   ZC2605"
     },
     {
       "date": "2026-04-15",
@@ -3458,13 +3458,13 @@
       "date": "2026-04-30",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 20%",
-      "contract": "AP2605   CF2605   CJ2605   CY2605   FG2605   JR2605   LR2605   MA2605   OI2605   PF2605   PK2605   PL2605   PM2605   PR2605   PX2605   RI2605   RM2605   SA2605   SF2605   SH2605   SM2605   SR2605   TA2605   UR2605   WH2605   ZC2605"
+      "contract": "AP2605   CF2605   CJ2605   CY2605   FG2605   JR2605   MA2605   OI2605   PF2605   PK2605   PL2605   PM2605   PR2605   PX2605   RI2605   RM2605   SA2605   SF2605   SH2605   SM2605   SR2605   TA2605   UR2605   WH2605   ZC2605"
     },
     {
       "date": "2026-04-30",
       "exchange": "CZCE",
       "matter": "自然人客户持仓应调整为0",
-      "contract": "AP2605   CF2605   CJ2605   CY2605   FG2605   JR2605   LR2605   MA2605   OI2605   PF2605   PK2605   PL2605   PM2605   PR2605   PX2605   RI2605   RM2605   SA2605   SF2605   SH2605   SM2605   SR2605   TA2605   UR2605   WH2605   ZC2605"
+      "contract": "AP2605   CF2605   CJ2605   CY2605   FG2605   JR2605   MA2605   OI2605   PF2605   PK2605   PL2605   PM2605   PR2605   PX2605   RI2605   RM2605   SA2605   SF2605   SH2605   SM2605   SR2605   TA2605   UR2605   WH2605   ZC2605"
     },
     {
       "date": "2026-04-30",
@@ -3818,7 +3818,7 @@
       "date": "2026-05-19",
       "exchange": "CZCE",
       "matter": "合约最后交易日",
-      "contract": "AP2605   CF2605   CJ2605   CY2605   FG2605   JR2605   LR2605   MA2605   OI2605   PF2605   PK2605   PL2605   PM2605   PR2605   PX2605   RI2605   RM2605   SA2605   SF2605   SH2605   SM2605   SR2605   TA2605   UR2605   WH2605"
+      "contract": "AP2605   CF2605   CJ2605   CY2605   FG2605   JR2605   MA2605   OI2605   PF2605   PK2605   PL2605   PM2605   PR2605   PX2605   RI2605   RM2605   SA2605   SF2605   SH2605   SM2605   SR2605   TA2605   UR2605   WH2605"
     },
     {
       "date": "2026-05-19",
@@ -3842,7 +3842,7 @@
       "date": "2026-05-20",
       "exchange": "CZCE",
       "matter": "合约上市日",
-      "contract": "AP2705   CF2705   CJ2705   CY2705   FG2705   JR2705   LR2705   MA2705   OI2705   PF2705   PK2705   PL2705   PM2705   PR2705   PX2705   RI2705   RM2705   SA2705   SF2705   SH2705   SM2705   SR2705   TA2705   UR2705   WH2705"
+      "contract": "AP2705   CF2705   CJ2705   CY2705   FG2705   JR2705   MA2705   OI2705   PF2705   PK2705   PL2705   PM2705   PR2705   PX2705   RI2705   RM2705   SA2705   SF2705   SH2705   SM2705   SR2705   TA2705   UR2705   WH2705"
     },
     {
       "date": "2026-05-20",
@@ -4700,7 +4700,7 @@
       "date": "2026-06-15",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 10%",
-      "contract": "CF2607   CY2607   FG2607   JR2607   LR2607   MA2607   OI2607   PF2607   PL2607   PM2607   PR2607   RI2607   RM2607   RS2607   SA2607   SF2607   SH2607   SM2607   SR2607   TA2607   UR2607   WH2607   ZC2607"
+      "contract": "CF2607   CY2607   FG2607   JR2607   MA2607   OI2607   PF2607   PL2607   PM2607   PR2607   RI2607   RM2607   RS2607   SA2607   SF2607   SH2607   SM2607   SR2607   TA2607   UR2607   WH2607   ZC2607"
     },
     {
       "date": "2026-06-15",
@@ -5288,13 +5288,13 @@
       "date": "2026-06-30",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 20%",
-      "contract": "CF2607   CJ2607   CY2607   FG2607   JR2607   LR2607   MA2607   OI2607   PF2607   PL2607   PM2607   PR2607   PX2607   RI2607   RM2607   RS2607   SA2607   SF2607   SH2607   SM2607   SR2607   TA2607   UR2607   WH2607   ZC2607"
+      "contract": "CF2607   CJ2607   CY2607   FG2607   JR2607   MA2607   OI2607   PF2607   PL2607   PM2607   PR2607   PX2607   RI2607   RM2607   RS2607   SA2607   SF2607   SH2607   SM2607   SR2607   TA2607   UR2607   WH2607   ZC2607"
     },
     {
       "date": "2026-06-30",
       "exchange": "CZCE",
       "matter": "自然人客户持仓应调整为0",
-      "contract": "CF2607   CJ2607   CY2607   FG2607   JR2607   LR2607   MA2607   OI2607   PF2607   PL2607   PM2607   PR2607   PX2607   RI2607   RM2607   RS2607   SA2607   SF2607   SH2607   SM2607   SR2607   TA2607   UR2607   WH2607   ZC2607"
+      "contract": "CF2607   CJ2607   CY2607   FG2607   JR2607   MA2607   OI2607   PF2607   PL2607   PM2607   PR2607   PX2607   RI2607   RM2607   RS2607   SA2607   SF2607   SH2607   SM2607   SR2607   TA2607   UR2607   WH2607   ZC2607"
     },
     {
       "date": "2026-06-30",
@@ -5558,7 +5558,7 @@
       "date": "2026-07-14",
       "exchange": "CZCE",
       "matter": "合约最后交易日",
-      "contract": "CF2607   CJ2607   CY2607   FG2607   JR2607   LR2607   MA2607   OI2607   PF2607   PL2607   PM2607   PR2607   PX2607   RI2607   RM2607   RS2607   SA2607   SF2607   SH2607   SM2607   SR2607   TA2607   UR2607   WH2607"
+      "contract": "CF2607   CJ2607   CY2607   FG2607   JR2607   MA2607   OI2607   PF2607   PL2607   PM2607   PR2607   PX2607   RI2607   RM2607   RS2607   SA2607   SF2607   SH2607   SM2607   SR2607   TA2607   UR2607   WH2607"
     },
     {
       "date": "2026-07-14",
@@ -5600,7 +5600,7 @@
       "date": "2026-07-15",
       "exchange": "CZCE",
       "matter": "合约上市日",
-      "contract": "CF2707   CJ2707   CY2707   FG2707   JR2707   LR2707   MA2707   OI2707   PF2707   PL2707   PM2707   PR2707   PX2707   RI2707   RM2707   RS2707   SA2707   SF2707   SH2707   SM2707   SR2707   TA2707   UR2707   WH2707"
+      "contract": "CF2707   CJ2707   CY2707   FG2707   JR2707   MA2707   OI2707   PF2707   PL2707   PM2707   PR2707   PX2707   RI2707   RM2707   SA2707   SF2707   SH2707   SM2707   SR2707   TA2707   UR2707   WH2707"
     },
     {
       "date": "2026-07-15",
@@ -6464,7 +6464,7 @@
       "date": "2026-08-14",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 10%",
-      "contract": "CF2609   CY2609   FG2609   JR2609   LR2609   MA2609   OI2609   PF2609   PL2609   PM2609   PR2609   RI2609   RM2609   RS2609   SA2609   SF2609   SH2609   SM2609   SR2609   TA2609   UR2609   WH2609   ZC2609"
+      "contract": "CF2609   CY2609   FG2609   JR2609   MA2609   OI2609   PF2609   PL2609   PM2609   PR2609   RI2609   RM2609   RS2609   SA2609   SF2609   SH2609   SM2609   SR2609   TA2609   UR2609   WH2609   ZC2609"
     },
     {
       "date": "2026-08-14",
@@ -6512,7 +6512,7 @@
       "date": "2026-08-17",
       "exchange": "CZCE",
       "matter": "合约上市日",
-      "contract": "CY2708   FG2708   MA2708   PF2708   PL2708   PR2708   PX2708   RM2708   RS2708   SA2708   SF2708   SH2708   SM2708   TA2708   UR2708"
+      "contract": "CY2708   FG2708   MA2708   PF2708   PL2708   PR2708   PX2708   RM2708   SA2708   SF2708   SH2708   SM2708   TA2708   UR2708"
     },
     {
       "date": "2026-08-17",
@@ -7130,13 +7130,13 @@
       "date": "2026-08-31",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 20%",
-      "contract": "CF2609   CJ2609   CY2609   FG2609   JR2609   LR2609   MA2609   OI2609   PF2609   PL2609   PM2609   PR2609   PX2609   RI2609   RM2609   RS2609   SA2609   SF2609   SH2609   SM2609   SR2609   TA2609   UR2609   WH2609   ZC2609"
+      "contract": "CF2609   CJ2609   CY2609   FG2609   JR2609   MA2609   OI2609   PF2609   PL2609   PM2609   PR2609   PX2609   RI2609   RM2609   RS2609   SA2609   SF2609   SH2609   SM2609   SR2609   TA2609   UR2609   WH2609   ZC2609"
     },
     {
       "date": "2026-08-31",
       "exchange": "CZCE",
       "matter": "自然人客户持仓应调整为0",
-      "contract": "CF2609   CJ2609   CY2609   FG2609   JR2609   LR2609   MA2609   OI2609   PF2609   PL2609   PM2609   PR2609   PX2609   RI2609   RM2609   RS2609   SA2609   SF2609   SH2609   SM2609   SR2609   TA2609   UR2609   WH2609   ZC2609"
+      "contract": "CF2609   CJ2609   CY2609   FG2609   JR2609   MA2609   OI2609   PF2609   PL2609   PM2609   PR2609   PX2609   RI2609   RM2609   RS2609   SA2609   SF2609   SH2609   SM2609   SR2609   TA2609   UR2609   WH2609   ZC2609"
     },
     {
       "date": "2026-08-31",
@@ -7412,7 +7412,7 @@
       "date": "2026-09-14",
       "exchange": "CZCE",
       "matter": "合约最后交易日",
-      "contract": "CF2609   CJ2609   CY2609   FG2609   JR2609   LR2609   MA2609   OI2609   PF2609   PL2609   PM2609   PR2609   PX2609   RI2609   RM2609   RS2609   SA2609   SF2609   SH2609   SM2609   SR2609   TA2609   UR2609   WH2609"
+      "contract": "CF2609   CJ2609   CY2609   FG2609   JR2609   MA2609   OI2609   PF2609   PL2609   PM2609   PR2609   PX2609   RI2609   RM2609   RS2609   SA2609   SF2609   SH2609   SM2609   SR2609   TA2609   UR2609   WH2609"
     },
     {
       "date": "2026-09-14",
@@ -7454,7 +7454,7 @@
       "date": "2026-09-15",
       "exchange": "CZCE",
       "matter": "合约上市日",
-      "contract": "CF2709   CJ2709   CY2709   FG2709   JR2709   LR2709   MA2709   OI2709   PF2709   PL2709   PM2709   PR2709   PX2709   RI2709   RM2709   RS2709   SA2709   SF2709   SH2709   SM2709   SR2709   TA2709   UR2709   WH2709"
+      "contract": "CF2709   CJ2709   CY2709   FG2709   JR2709   MA2709   OI2709   PF2709   PL2709   PM2709   PR2709   PX2709   RI2709   RM2709   SA2709   SF2709   SH2709   SM2709   SR2709   TA2709   UR2709   WH2709"
     },
     {
       "date": "2026-09-15",
@@ -7593,6 +7593,12 @@
       "exchange": "DCE",
       "matter": "y2611_MS系列期权最后交易日, 最后行权日",
       "contract": "y2611"
+    },
+    {
+      "date": "2026-09-16",
+      "exchange": "CZCE",
+      "matter": "合约上市日",
+      "contract": "RS2701   RS2703   RS2706   RS2707   RS2709"
     },
     {
       "date": "2026-09-16",
@@ -8312,7 +8318,7 @@
       "date": "2026-10-15",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 10%",
-      "contract": "AP2611   CF2611   CY2611   FG2611   JR2611   LR2611   MA2611   OI2611   PF2611   PK2611   PL2611   PM2611   PR2611   RI2611   RM2611   RS2611   SA2611   SF2611   SH2611   SM2611   SR2611   TA2611   UR2611   WH2611   ZC2611"
+      "contract": "AP2611   CF2611   CY2611   FG2611   JR2611   MA2611   OI2611   PF2611   PK2611   PL2611   PM2611   PR2611   RI2611   RM2611   RS2611   SA2611   SF2611   SH2611   SM2611   SR2611   TA2611   UR2611   WH2611   ZC2611"
     },
     {
       "date": "2026-10-15",
@@ -8505,6 +8511,12 @@
       "exchange": "DCE",
       "matter": "i2611常规期权最后交易日, 最后行权日",
       "contract": "i2611"
+    },
+    {
+      "date": "2026-10-23",
+      "exchange": "DCE",
+      "matter": "j2611常规期权最后交易日, 最后行权日",
+      "contract": "j2611"
     },
     {
       "date": "2026-10-23",
@@ -8960,13 +8972,13 @@
       "date": "2026-10-30",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 20%",
-      "contract": "AP2611   CF2611   CY2611   FG2611   JR2611   LR2611   MA2611   OI2611   PF2611   PK2611   PL2611   PM2611   PR2611   PX2611   RI2611   RM2611   RS2611   SA2611   SF2611   SH2611   SM2611   SR2611   TA2611   UR2611   WH2611   ZC2611"
+      "contract": "AP2611   CF2611   CY2611   FG2611   JR2611   MA2611   OI2611   PF2611   PK2611   PL2611   PM2611   PR2611   PX2611   RI2611   RM2611   RS2611   SA2611   SF2611   SH2611   SM2611   SR2611   TA2611   UR2611   WH2611   ZC2611"
     },
     {
       "date": "2026-10-30",
       "exchange": "CZCE",
       "matter": "自然人客户持仓应调整为0",
-      "contract": "AP2611   CF2611   CY2611   FG2611   JR2611   LR2611   MA2611   OI2611   PF2611   PK2611   PL2611   PM2611   PR2611   PX2611   RI2611   RM2611   RS2611   SA2611   SF2611   SH2611   SM2611   SR2611   TA2611   UR2611   WH2611   ZC2611"
+      "contract": "AP2611   CF2611   CY2611   FG2611   JR2611   MA2611   OI2611   PF2611   PK2611   PL2611   PM2611   PR2611   PX2611   RI2611   RM2611   RS2611   SA2611   SF2611   SH2611   SM2611   SR2611   TA2611   UR2611   WH2611   ZC2611"
     },
     {
       "date": "2026-10-30",
@@ -9109,6 +9121,12 @@
     {
       "date": "2026-11-11",
       "exchange": "CZCE",
+      "matter": "CF2701_MS系列期权最后交易日, 最后行权日",
+      "contract": "CF2701"
+    },
+    {
+      "date": "2026-11-11",
+      "exchange": "CZCE",
       "matter": "FG2612常规期权最后交易日, 最后行权日",
       "contract": "FG2612"
     },
@@ -9117,6 +9135,12 @@
       "exchange": "CZCE",
       "matter": "MA2612常规期权最后交易日, 最后行权日",
       "contract": "MA2612"
+    },
+    {
+      "date": "2026-11-11",
+      "exchange": "CZCE",
+      "matter": "OI2701_MS系列期权最后交易日, 最后行权日",
+      "contract": "OI2701"
     },
     {
       "date": "2026-11-11",
@@ -9135,6 +9159,12 @@
       "exchange": "CZCE",
       "matter": "PL2612常规期权最后交易日, 最后行权日",
       "contract": "PL2612"
+    },
+    {
+      "date": "2026-11-11",
+      "exchange": "CZCE",
+      "matter": "RM2701_MS系列期权最后交易日, 最后行权日",
+      "contract": "RM2701"
     },
     {
       "date": "2026-11-11",
@@ -9230,7 +9260,7 @@
       "date": "2026-11-13",
       "exchange": "CZCE",
       "matter": "合约最后交易日",
-      "contract": "AP2611   CF2611   CY2611   FG2611   JR2611   LR2611   MA2611   OI2611   PF2611   PK2611   PL2611   PM2611   PR2611   PX2611   RI2611   RM2611   RS2611   SA2611   SF2611   SH2611   SM2611   SR2611   TA2611   UR2611   WH2611"
+      "contract": "AP2611   CF2611   CY2611   FG2611   JR2611   MA2611   OI2611   PF2611   PK2611   PL2611   PM2611   PR2611   PX2611   RI2611   RM2611   RS2611   SA2611   SF2611   SH2611   SM2611   SR2611   TA2611   UR2611   WH2611"
     },
     {
       "date": "2026-11-13",
@@ -9284,7 +9314,7 @@
       "date": "2026-11-16",
       "exchange": "CZCE",
       "matter": "合约上市日",
-      "contract": "AP2711   CF2711   CY2711   FG2711   JR2711   LR2711   MA2711   OI2711   PF2711   PK2711   PL2711   PM2711   PR2711   PX2711   RI2711   RM2711   RS2711   SA2711   SF2711   SH2711   SM2711   SR2711   TA2711   UR2711   WH2711"
+      "contract": "AP2711   CF2711   CY2711   FG2711   JR2711   MA2711   OI2711   PF2711   PK2711   PL2711   PM2711   PR2711   PX2711   RI2711   RM2711   RS2711   SA2711   SF2711   SH2711   SM2711   SR2711   TA2711   UR2711   WH2711"
     },
     {
       "date": "2026-11-16",
@@ -9351,6 +9381,12 @@
       "exchange": "DCE",
       "matter": "i2612常规期权最后交易日, 最后行权日",
       "contract": "i2612"
+    },
+    {
+      "date": "2026-11-17",
+      "exchange": "DCE",
+      "matter": "j2612常规期权最后交易日, 最后行权日",
+      "contract": "j2612"
     },
     {
       "date": "2026-11-17",
@@ -9553,6 +9589,12 @@
     {
       "date": "2026-11-24",
       "exchange": "SHFE",
+      "matter": "hc2612常规期权最后交易日, 最后行权日",
+      "contract": "hc2612"
+    },
+    {
+      "date": "2026-11-24",
+      "exchange": "SHFE",
       "matter": "ni2612常规期权最后交易日, 最后行权日",
       "contract": "ni2612"
     },
@@ -9585,6 +9627,12 @@
       "exchange": "SHFE",
       "matter": "sp2612常规期权最后交易日, 最后行权日",
       "contract": "sp2612"
+    },
+    {
+      "date": "2026-11-24",
+      "exchange": "SHFE",
+      "matter": "ss2612常规期权最后交易日, 最后行权日",
+      "contract": "ss2612"
     },
     {
       "date": "2026-11-24",
@@ -10220,7 +10268,7 @@
       "date": "2026-12-15",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 10%",
-      "contract": "AP2701   CF2701   CY2701   FG2701   JR2701   LR2701   MA2701   OI2701   PF2701   PK2701   PL2701   PM2701   PR2701   RI2701   RM2701   SA2701   SF2701   SH2701   SM2701   SR2701   TA2701   UR2701   WH2701   ZC2701"
+      "contract": "AP2701   CF2701   CY2701   FG2701   JR2701   MA2701   OI2701   PF2701   PK2701   PL2701   PM2701   PR2701   RI2701   RM2701   RS2701   SA2701   SF2701   SH2701   SM2701   SR2701   TA2701   UR2701   WH2701   ZC2701"
     },
     {
       "date": "2026-12-15",
@@ -10299,6 +10347,12 @@
       "exchange": "DCE",
       "matter": "i2701常规期权最后交易日, 最后行权日",
       "contract": "i2701"
+    },
+    {
+      "date": "2026-12-16",
+      "exchange": "DCE",
+      "matter": "j2701常规期权最后交易日, 最后行权日",
+      "contract": "j2701"
     },
     {
       "date": "2026-12-16",
@@ -10425,6 +10479,12 @@
       "exchange": "SZSE",
       "matter": "每日向持仓者发送合约到期通知",
       "contract": "159901 2612常规期权   159915 2612常规期权   159919 2612常规期权   159922 2612常规期权"
+    },
+    {
+      "date": "2026-12-18",
+      "exchange": "INE",
+      "matter": "lu2701常规期权最后交易日, 最后行权日",
+      "contract": "lu2701"
     },
     {
       "date": "2026-12-18",
@@ -10585,6 +10645,12 @@
     {
       "date": "2026-12-25",
       "exchange": "SHFE",
+      "matter": "hc2701常规期权最后交易日, 最后行权日",
+      "contract": "hc2701"
+    },
+    {
+      "date": "2026-12-25",
+      "exchange": "SHFE",
       "matter": "ni2701常规期权最后交易日, 最后行权日",
       "contract": "ni2701"
     },
@@ -10623,6 +10689,12 @@
       "exchange": "SHFE",
       "matter": "sp2701常规期权最后交易日, 最后行权日",
       "contract": "sp2701"
+    },
+    {
+      "date": "2026-12-25",
+      "exchange": "SHFE",
+      "matter": "ss2701常规期权最后交易日, 最后行权日",
+      "contract": "ss2701"
     },
     {
       "date": "2026-12-25",
@@ -10826,13 +10898,13 @@
       "date": "2026-12-31",
       "exchange": "CZCE",
       "matter": "当日结算时交易所保证金提高至 20%",
-      "contract": "AP2701   CF2701   CJ2701   CY2701   FG2701   JR2701   LR2701   MA2701   OI2701   PF2701   PK2701   PL2701   PM2701   PR2701   PX2701   RI2701   RM2701   SA2701   SF2701   SH2701   SM2701   SR2701   TA2701   UR2701   WH2701   ZC2701"
+      "contract": "AP2701   CF2701   CJ2701   CY2701   FG2701   JR2701   MA2701   OI2701   PF2701   PK2701   PL2701   PM2701   PR2701   PX2701   RI2701   RM2701   RS2701   SA2701   SF2701   SH2701   SM2701   SR2701   TA2701   UR2701   WH2701   ZC2701"
     },
     {
       "date": "2026-12-31",
       "exchange": "CZCE",
       "matter": "自然人客户持仓应调整为0",
-      "contract": "AP2701   CF2701   CJ2701   CY2701   FG2701   JR2701   LR2701   MA2701   OI2701   PF2701   PK2701   PL2701   PM2701   PR2701   PX2701   RI2701   RM2701   SA2701   SF2701   SH2701   SM2701   SR2701   TA2701   UR2701   WH2701   ZC2701"
+      "contract": "AP2701   CF2701   CJ2701   CY2701   FG2701   JR2701   MA2701   OI2701   PF2701   PK2701   PL2701   PM2701   PR2701   PX2701   RI2701   RM2701   RS2701   SA2701   SF2701   SH2701   SM2701   SR2701   TA2701   UR2701   WH2701   ZC2701"
     },
     {
       "date": "2026-12-31",
