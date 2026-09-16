@@ -9,10 +9,12 @@ build_calendar.py — 交易年历 Excel -> docs/calendar.json 转换脚本
     抽取为前端可直接读取的 JSON，供网页按"当天日期"筛选展示。
 
 数据更新流程（后期维护）：
-    1. 在仓库 data/ 目录删除旧的 交易年历.xlsx，上传新的同名文件
-       （或直接在 GitHub 网页端 Upload 覆盖）。
-    2. 点网页上的「手动刷新」按钮，或等每日定时任务自动运行，
-       本脚本会重新生成 docs/calendar.json 并重新部署 Pages。
+    1. 把新的年历 Excel 命名为 交易年历.xlsx，覆盖仓库 data/ 目录下的旧文件
+       （GitHub 网页端进 data/ 文件夹，拖入新文件覆盖，或先删旧再传新）。
+    2. 推送即触发 update-calendar.yml 自动重建 calendar.json 并部署；
+       也可等每日定时任务 crawl.yml 顺带重建。
+    说明：data/ 目录下只保留一个 xlsx（固定名 交易年历.xlsx）。
+          若固定名文件缺失，脚本会回退读取 data/ 下任意一个 .xlsx。
 
 注意：GitHub Actions 的 cron 运行在 UTC，已在 core/date_utils 用北京时间处理；
 本脚本只负责把 Excel 转成 JSON，不关心"今天"的判定（由前端按浏览器北京时间筛选）。
@@ -83,38 +85,46 @@ def main():
 
     ws = wb[SHEET_NAME]
 
-    # 处理 A 列合并单元格：合并区域的值只存在于左上角单元格，
-    # 需要把该值扩散到区域内的每一行，否则同一日期的后续行会丢失日期。
-    date_by_row = {}
-    for row in range(DATA_START_ROW, ws.max_row + 1):
-        date_by_row[row] = to_iso_date(ws.cell(row=row, column=FIELD_MAP["date"]).value)
+    # 处理合并单元格：合并区域的值只存在于左上角单元格。
+    # 需要把该值扩散到区域内每一行，否则后续行会丢失数据。
+    # 对 日期(A) / 交易所(B) / 提示事项(C) 三列都做扩散。
+    def spread_merged(col):
+        result = {}
+        for merged_range in ws.merged_cells.ranges:
+            min_col, min_row, max_col, max_row = merged_range.bounds
+            if min_col <= col <= max_col:
+                top_left = ws.cell(row=min_row, column=col).value
+                if top_left is not None and str(top_left).strip() != "":
+                    for row in range(min_row, max_row + 1):
+                        result[row] = top_left
+        return result
 
-    for merged_range in ws.merged_cells.ranges:
-        min_col, min_row, max_col, max_row = merged_range.bounds
-        if min_col <= FIELD_MAP["date"] <= max_col:
-            top_left_value = ws.cell(row=min_row, column=FIELD_MAP["date"]).value
-            top_left_date = to_iso_date(top_left_value)
-            if top_left_date is not None:
-                for row in range(min_row, max_row + 1):
-                    date_by_row[row] = top_left_date
+    date_by_row = spread_merged(FIELD_MAP["date"])
+    exchange_by_row = spread_merged(FIELD_MAP["exchange"])
+    matter_by_row = spread_merged(FIELD_MAP["matter"])
+    contract_by_row = spread_merged(FIELD_MAP["contract"])
 
     events = []
     skipped = 0
     last_date = None
     last_exchange = ""
     for row in range(DATA_START_ROW, ws.max_row + 1):
-        date_iso = date_by_row.get(row)
+        raw_date = ws.cell(row=row, column=FIELD_MAP["date"]).value
+        date_iso = to_iso_date(raw_date) or to_iso_date(date_by_row.get(row))
         if date_iso is None:
             skipped += 1
             continue  # 跳过空行 / 非日期行
-        exchange = (ws.cell(row=row, column=FIELD_MAP["exchange"]).value or "").strip()
-        matter = (ws.cell(row=row, column=FIELD_MAP["matter"]).value or "").strip()
-        contract = (ws.cell(row=row, column=FIELD_MAP["contract"]).value or "").strip()
+        exchange = (ws.cell(row=row, column=FIELD_MAP["exchange"]).value
+                    or exchange_by_row.get(row) or "").strip()
+        matter = (ws.cell(row=row, column=FIELD_MAP["matter"]).value
+                  or matter_by_row.get(row) or "").strip()
+        contract = (ws.cell(row=row, column=FIELD_MAP["contract"]).value
+                    or contract_by_row.get(row) or "").strip()
         # 跳过完全空白的行
         if not exchange and not matter and not contract:
             skipped += 1
             continue
-        # 同一日期块内，B 列为空时继承上一个非空交易所
+        # 同一日期块内，B 列为空时继承上一个非空交易所（兜底）
         if not exchange and date_iso == last_date and last_exchange:
             exchange = last_exchange
         if exchange:
@@ -129,6 +139,17 @@ def main():
 
     # 按日期升序，同一日期内保持原始行顺序
     events.sort(key=lambda e: e["date"])
+
+    # 去重：合并单元格会导致同一天内出现 4 字段完全相同的重复行，折叠为一条
+    seen = set()
+    deduped = []
+    for e in events:
+        key = (e["date"], e["exchange"], e["matter"], e["contract"])
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(e)
+    events = deduped
 
     BJT = timezone(timedelta(hours=8))
     payload = {
