@@ -1,6 +1,54 @@
 {
   "notices": [
     {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于2026年国庆节假期调整相关期货合约涨跌停板幅度和交易保证金标准的通知",
+      "notice_date": "2026-09-21",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202609/2d78882977d04b86a7837fb07c16f9cf.shtml",
+      "crawled_date": "2026-09-22"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于加强2026年中秋节休市期间风险管理的通知",
+      "notice_date": "2026-09-21",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202609/64697e454e324e5a8990e674293d8726.shtml",
+      "crawled_date": "2026-09-22"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于2026年中秋节、国庆节期间有关工作安排的通知",
+      "notice_date": "2026-09-21",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260921_833506.html",
+      "crawled_date": "2026-09-22"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-09-21",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260921_833511.html",
+      "crawled_date": "2026-09-22"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于2026年中秋节、国庆节期间有关工作安排的通知",
+      "notice_date": "2026-09-21",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260921_833507.html",
+      "crawled_date": "2026-09-22"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于2026年中秋节、国庆节期间有关工作安排的通知",
+      "notice_date": "2026-09-21",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260921_833503.html",
+      "crawled_date": "2026-09-22"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于2026年中秋节、国庆节期间夜盘交易时间提示的通知",
@@ -1625,7 +1673,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-21T05:31:51.907129+08:00",
-  "total": 203,
+  "last_update": "2026-09-22T06:38:09.380721+08:00",
+  "total": 209,
   "date": "2026-08-04"
 }
