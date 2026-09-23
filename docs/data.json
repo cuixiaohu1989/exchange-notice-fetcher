@@ -3,6 +3,14 @@
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
+      "title": "郑州商品交易所关于葵花籽油期货和期权合约及期货业务细则征求意见的公告",
+      "notice_date": "2026-09-23",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/30a68c7731ba456c995814526ae85b28.htm",
+      "crawled_date": "2026-09-24"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
       "title": "关于增设指定瓶片交割厂库的公告",
       "notice_date": "2026-09-22",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/e7778c0e26544d2b93d58c585082038f.htm",
@@ -1689,7 +1697,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-23T06:09:23.937403+08:00",
-  "total": 211,
+  "last_update": "2026-09-24T06:17:19.813701+08:00",
+  "total": 212,
   "date": "2026-08-04"
 }

@@ -1,13 +1,20 @@
 {
   "status": "success",
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "date_range": {
-    "start": "2026-09-20",
-    "end": "2026-09-22"
+    "start": "2026-09-21",
+    "end": "2026-09-23"
   },
-  "total": 8,
+  "total": 9,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "郑州商品交易所关于葵花籽油期货和期权合约及期货业务细则征求意见的公告",
+      "notice_date": "2026-09-23",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/30a68c7731ba456c995814526ae85b28.htm"
+    },
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
