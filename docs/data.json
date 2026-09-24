@@ -3,6 +3,70 @@
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
+      "title": "关于就修订各品种期权合约、期货业务细则及套期保值管理办法征求意见的公告",
+      "notice_date": "2026-09-24",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/9447638e5d714f0da34f26139891d1f4.htm",
+      "crawled_date": "2026-09-25"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于做好扩大合格境外投资者参与商品期货、期权交易范围有关事项的通知",
+      "notice_date": "2026-09-24",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/33ef7ef167da4e81b693fb3416f69954.htm",
+      "crawled_date": "2026-09-25"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于扩大合格境外投资者参与商品期货、期权交易范围的公告",
+      "notice_date": "2026-09-24",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/b1ccd6fc515a4d499099e672705d8876.htm",
+      "crawled_date": "2026-09-25"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于做好扩大合格境外投资者参与商品期货、期权交易范围有关事项的通知",
+      "notice_date": "2026-09-24",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202609/b64b6a26482b4f9b9d0f63b571789f42.shtml",
+      "crawled_date": "2026-09-25"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于扩大合格境外投资者参与商品期货、期权交易范围的公告",
+      "notice_date": "2026-09-24",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202609/64335581defa43568f33b878cde20a71.shtml",
+      "crawled_date": "2026-09-25"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于做好进一步扩大合格境外投资者参与商品期货、期权交易范围有关事项的通知",
+      "notice_date": "2026-09-24",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260924_833556.html",
+      "crawled_date": "2026-09-25"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于进一步扩大合格境外投资者参与商品期货、期权交易范围的公告",
+      "notice_date": "2026-09-24",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260924_833554.html",
+      "crawled_date": "2026-09-25"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海期货交易所就瓦楞原纸期货合约、期权合约及相关业务细则公开征求意见的公告",
+      "notice_date": "2026-09-24",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260924_833541.html",
+      "crawled_date": "2026-09-25"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
       "title": "郑州商品交易所关于葵花籽油期货和期权合约及期货业务细则征求意见的公告",
       "notice_date": "2026-09-23",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/30a68c7731ba456c995814526ae85b28.htm",
@@ -1697,7 +1761,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-24T06:17:19.813701+08:00",
-  "total": 212,
+  "last_update": "2026-09-25T06:25:49.534702+08:00",
+  "total": 220,
   "date": "2026-08-04"
 }
