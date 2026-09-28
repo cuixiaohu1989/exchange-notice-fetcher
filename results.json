@@ -1,11 +1,40 @@
 {
   "status": "success",
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "date_range": {
-    "start": "2026-09-25",
-    "end": "2026-09-27"
+    "start": "2026-09-26",
+    "end": "2026-09-28"
   },
-  "total": 0,
+  "total": 4,
   "failed_exchanges": [],
-  "notices": []
+  "notices": [
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-09-28",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260928_833575.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于同意金川集团股份有限公司增加“JNMC”牌A级铜（永久阴极-K）注册产地的公告",
+      "notice_date": "2026-09-28",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260928_833573.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于调整石油沥青期货相关合约交易限额的通知",
+      "notice_date": "2026-09-28",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260928_833576.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意金川集团股份有限公司增加“JNMC”牌A级铜（永久阴极-K）注册产地的公告",
+      "notice_date": "2026-09-28",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260928_833570.html"
+    }
+  ]
 }
