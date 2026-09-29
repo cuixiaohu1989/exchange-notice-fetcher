@@ -1,6 +1,38 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于暂停南宁云鸥物流股份有限公司指定白糖交割业务的公告",
+      "notice_date": "2026-09-29",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/30b08cff75174812b80b9e605d13c77d.htm",
+      "crawled_date": "2026-09-30"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于举办郑商所“会员强基培训班”（第二期）的通知",
+      "notice_date": "2026-09-29",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/675a44ccb2b148f2be6727df80dcb928.htm",
+      "crawled_date": "2026-09-30"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-09-29",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260929_833599.html",
+      "crawled_date": "2026-09-30"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意浙江永安资本管理有限公司等3家纸浆期货厂库调整提货地的公告",
+      "notice_date": "2026-09-29",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260929_833591.html",
+      "crawled_date": "2026-09-30"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
@@ -1793,7 +1825,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-29T07:52:42.519865+08:00",
-  "total": 224,
+  "last_update": "2026-09-30T07:00:20.737806+08:00",
+  "total": 228,
   "date": "2026-08-04"
 }

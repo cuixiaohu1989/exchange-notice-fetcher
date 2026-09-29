@@ -1,13 +1,34 @@
 {
   "status": "success",
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "date_range": {
-    "start": "2026-09-26",
-    "end": "2026-09-28"
+    "start": "2026-09-27",
+    "end": "2026-09-29"
   },
-  "total": 4,
+  "total": 8,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于暂停南宁云鸥物流股份有限公司指定白糖交割业务的公告",
+      "notice_date": "2026-09-29",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/30b08cff75174812b80b9e605d13c77d.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于举办郑商所“会员强基培训班”（第二期）的通知",
+      "notice_date": "2026-09-29",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/675a44ccb2b148f2be6727df80dcb928.htm"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-09-29",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260929_833599.html"
+    },
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
@@ -21,6 +42,13 @@
       "title": "关于同意金川集团股份有限公司增加“JNMC”牌A级铜（永久阴极-K）注册产地的公告",
       "notice_date": "2026-09-28",
       "link": "https://www.ine.cn/publicnotice/notice/202609/t20260928_833573.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意浙江永安资本管理有限公司等3家纸浆期货厂库调整提货地的公告",
+      "notice_date": "2026-09-29",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260929_833591.html"
     },
     {
       "exchange": "SHFE",
