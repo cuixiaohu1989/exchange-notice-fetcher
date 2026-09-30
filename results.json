@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "date_range": {
-    "start": "2026-09-27",
-    "end": "2026-09-29"
+    "start": "2026-09-28",
+    "end": "2026-09-30"
   },
-  "total": 8,
+  "total": 14,
   "failed_exchanges": [],
   "notices": [
     {
@@ -21,6 +21,20 @@
       "title": "关于举办郑商所“会员强基培训班”（第二期）的通知",
       "notice_date": "2026-09-29",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/9/675a44ccb2b148f2be6727df80dcb928.htm"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于同意江铜宏源铜业有限公司“江铜”牌A级铜（永久阴极－I）注册的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260930_833619.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于发布《上海国际能源交易中心实际控制关系账户管理细则（修订案）》的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260930_833616.html"
     },
     {
       "exchange": "INE",
@@ -42,6 +56,34 @@
       "title": "关于同意金川集团股份有限公司增加“JNMC”牌A级铜（永久阴极-K）注册产地的公告",
       "notice_date": "2026-09-28",
       "link": "https://www.ine.cn/publicnotice/notice/202609/t20260928_833573.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意江铜宏源铜业有限公司“江铜”牌A级铜（永久阴极－I）注册的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260930_833624.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于发布《上海期货交易所实际控制关系账户管理办法》（修订案）的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260930_833618.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于《上海国际能源交易中心实际控制关系账户管理细则（修订案）》的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260930_833617.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意常熟威特隆仓储有限公司调整纸浆期货存放点及启用库容的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260930_833615.html"
     },
     {
       "exchange": "SHFE",

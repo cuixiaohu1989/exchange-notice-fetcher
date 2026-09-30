@@ -1,6 +1,54 @@
 {
   "notices": [
     {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于同意江铜宏源铜业有限公司“江铜”牌A级铜（永久阴极－I）注册的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260930_833619.html",
+      "crawled_date": "2026-10-01"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于发布《上海国际能源交易中心实际控制关系账户管理细则（修订案）》的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.ine.cn/publicnotice/notice/202609/t20260930_833616.html",
+      "crawled_date": "2026-10-01"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意江铜宏源铜业有限公司“江铜”牌A级铜（永久阴极－I）注册的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260930_833624.html",
+      "crawled_date": "2026-10-01"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于发布《上海期货交易所实际控制关系账户管理办法》（修订案）的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260930_833618.html",
+      "crawled_date": "2026-10-01"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于《上海国际能源交易中心实际控制关系账户管理细则（修订案）》的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260930_833617.html",
+      "crawled_date": "2026-10-01"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意常熟威特隆仓储有限公司调整纸浆期货存放点及启用库容的公告",
+      "notice_date": "2026-09-30",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260930_833615.html",
+      "crawled_date": "2026-10-01"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于暂停南宁云鸥物流股份有限公司指定白糖交割业务的公告",
@@ -1825,7 +1873,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-09-30T07:00:20.737806+08:00",
-  "total": 228,
+  "last_update": "2026-10-01T07:01:06.773999+08:00",
+  "total": 234,
   "date": "2026-08-04"
 }
