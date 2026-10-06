@@ -1,9 +1,9 @@
 {
   "status": "success",
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "date_range": {
-    "start": "2026-10-03",
-    "end": "2026-10-05"
+    "start": "2026-10-04",
+    "end": "2026-10-06"
   },
   "total": 0,
   "failed_exchanges": [],
