@@ -1,11 +1,26 @@
 {
   "status": "success",
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "date_range": {
-    "start": "2026-10-05",
-    "end": "2026-10-07"
+    "start": "2026-10-06",
+    "end": "2026-10-08"
   },
-  "total": 0,
+  "total": 2,
   "failed_exchanges": [],
-  "notices": []
+  "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于指定棉纱交割仓库广东炬申仓储有限公司变更仓库地址的公告",
+      "notice_date": "2026-10-08",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/304637bdad7c4e7fa9a63a81bdb9657d.htm"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于就氢氧化锂期货和期权合约及相关规则公开征求意见的公告",
+      "notice_date": "2026-10-08",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202609/156a2d0728ce4666acfbc6bc6dae4fb8.shtml"
+    }
+  ]
 }

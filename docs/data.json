@@ -1,6 +1,22 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于指定棉纱交割仓库广东炬申仓储有限公司变更仓库地址的公告",
+      "notice_date": "2026-10-08",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/304637bdad7c4e7fa9a63a81bdb9657d.htm",
+      "crawled_date": "2026-10-09"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于就氢氧化锂期货和期权合约及相关规则公开征求意见的公告",
+      "notice_date": "2026-10-08",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202609/156a2d0728ce4666acfbc6bc6dae4fb8.shtml",
+      "crawled_date": "2026-10-09"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于同意江铜宏源铜业有限公司“江铜”牌A级铜（永久阴极－I）注册的公告",
@@ -1873,7 +1889,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-08T07:35:59.542764+08:00",
-  "total": 234,
+  "last_update": "2026-10-09T07:48:02.798470+08:00",
+  "total": 236,
   "date": "2026-08-04"
 }
