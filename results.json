@@ -1,9 +1,61 @@
 {
-  "status": "skipped",
-  "reason": "weekend",
-  "date": "2026-10-11",
-  "date_range": null,
-  "total": 0,
+  "status": "success",
+  "date": "2026-10-12",
+  "date_range": {
+    "start": "2026-10-09",
+    "end": "2026-10-11"
+  },
+  "total": 7,
   "failed_exchanges": [],
-  "notices": []
+  "notices": [
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于调整原油、低硫燃料油期货相关合约交易限额的通知",
+      "notice_date": "2026-10-09",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261009_833671.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于调整原油、低硫燃料油期货相关合约涨跌停板幅度和交易保证金比例的通知",
+      "notice_date": "2026-10-09",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261009_833669.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-09",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261009_833666.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于调整原油、低硫燃料油期货相关合约交易限额的通知",
+      "notice_date": "2026-10-09",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261009_833672.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于调整原油、低硫燃料油期货相关合约涨跌停板幅度和交易保证金比例的通知",
+      "notice_date": "2026-10-09",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261009_833670.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于调整燃料油、石油沥青期货相关合约交易限额的通知",
+      "notice_date": "2026-10-09",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261009_833668.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于调整燃料油、石油沥青期货相关合约涨跌停板幅度和交易保证金比例的通知",
+      "notice_date": "2026-10-09",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261009_833667.html"
+    }
+  ]
 }
