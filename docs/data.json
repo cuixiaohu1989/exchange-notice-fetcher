@@ -3,6 +3,38 @@
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
+      "title": "关于动力煤期货2710合约有关事项的公告",
+      "notice_date": "2026-10-13",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/6326263060a1430a8cf6e4d2427b80b3.htm",
+      "crawled_date": "2026-10-14"
+    },
+    {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加5年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-10-13",
+      "link": "http://www.cffex.com.cn/cn/jystz/20261013/48680.html",
+      "crawled_date": "2026-10-14"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-13",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261013_833698.html",
+      "crawled_date": "2026-10-14"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-13",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261013_833699.html",
+      "crawled_date": "2026-10-14"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
       "title": "关于就修订《郑州商品交易所违规处理办法》公开征求意见的公告",
       "notice_date": "2026-10-12",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/4c35ad3efaa449f3896b2a232468fe33.htm",
@@ -1993,7 +2025,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-13T09:23:24.226655+08:00",
-  "total": 249,
+  "last_update": "2026-10-14T07:19:30.466452+08:00",
+  "total": 253,
   "date": "2026-08-04"
 }
