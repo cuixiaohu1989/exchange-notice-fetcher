@@ -1,6 +1,54 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于就修订《郑州商品交易所违规处理办法》公开征求意见的公告",
+      "notice_date": "2026-10-12",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/4c35ad3efaa449f3896b2a232468fe33.htm",
+      "crawled_date": "2026-10-13"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于调整指定PTA、瓶片交割仓库的公告",
+      "notice_date": "2026-10-12",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/e638b26714ae4ecaa4bb0c2018e8e63a.htm",
+      "crawled_date": "2026-10-13"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于就修订《广州期货交易所违规违约处理办法》公开征求意见的公告",
+      "notice_date": "2026-10-12",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202610/8585d8fca9724e7c895baa1fe8a01c42.shtml",
+      "crawled_date": "2026-10-13"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于就修订《上海国际能源交易中心违规处理实施细则》公开征求意见的公告",
+      "notice_date": "2026-10-12",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261012_833678.html",
+      "crawled_date": "2026-10-13"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于就修订《上海国际能源交易中心违规处理实施细则》公开征求意见的公告",
+      "notice_date": "2026-10-12",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261012_833679.html",
+      "crawled_date": "2026-10-13"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于就修订《上海期货交易所违规处理办法》公开征求意见的公告",
+      "notice_date": "2026-10-12",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261012_833677.html",
+      "crawled_date": "2026-10-13"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于调整原油、低硫燃料油期货相关合约交易限额的通知",
@@ -1945,7 +1993,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-12T06:54:49.004488+08:00",
-  "total": 243,
+  "last_update": "2026-10-13T09:23:24.226655+08:00",
+  "total": 249,
   "date": "2026-08-04"
 }
