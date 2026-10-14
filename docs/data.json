@@ -1,6 +1,14 @@
 {
   "notices": [
     {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-14",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261014_833709.html",
+      "crawled_date": "2026-10-15"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于动力煤期货2710合约有关事项的公告",
@@ -2025,7 +2033,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-14T07:19:30.466452+08:00",
-  "total": 253,
+  "last_update": "2026-10-15T06:19:48.755291+08:00",
+  "total": 254,
   "date": "2026-08-04"
 }

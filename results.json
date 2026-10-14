@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "date_range": {
-    "start": "2026-10-11",
-    "end": "2026-10-13"
+    "start": "2026-10-12",
+    "end": "2026-10-14"
   },
-  "total": 12,
+  "total": 13,
   "failed_exchanges": [],
   "notices": [
     {
@@ -70,6 +70,13 @@
       "title": "关于就修订《上海国际能源交易中心违规处理实施细则》公开征求意见的公告",
       "notice_date": "2026-10-12",
       "link": "https://www.ine.cn/publicnotice/notice/202610/t20261012_833678.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-14",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261014_833709.html"
     },
     {
       "exchange": "SHFE",
