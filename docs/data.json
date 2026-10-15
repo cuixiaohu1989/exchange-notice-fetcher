@@ -4,6 +4,14 @@
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-15",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261015_833720.html",
+      "crawled_date": "2026-10-16"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-10-14",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261014_833709.html",
       "crawled_date": "2026-10-15"
@@ -2033,7 +2041,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-15T06:19:48.755291+08:00",
-  "total": 254,
+  "last_update": "2026-10-16T06:15:06.820878+08:00",
+  "total": 255,
   "date": "2026-08-04"
 }
