@@ -1,6 +1,54 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于就修订《郑州商品交易所干制红枣期货业务细则》征求意见的公告",
+      "notice_date": "2026-10-16",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/a43c927815744cbf8091e7f21d440b38.htm",
+      "crawled_date": "2026-10-19"
+    },
+    {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于股指期货和股指期权合约交割的通知",
+      "notice_date": "2026-10-16",
+      "link": "http://www.cffex.com.cn/cn/jystz/20261016/48692.html",
+      "crawled_date": "2026-10-19"
+    },
+    {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "股指期货和股指期权新合约上市通知",
+      "notice_date": "2026-10-16",
+      "link": "http://www.cffex.com.cn/cn/jystz/20261016/48690.html",
+      "crawled_date": "2026-10-19"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于2026年9月自律监管信息的公告",
+      "notice_date": "2026-10-16",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261016_833724.html",
+      "crawled_date": "2026-10-19"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-16",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261016_833733.html",
+      "crawled_date": "2026-10-19"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于2026年9月自律监管信息的公告",
+      "notice_date": "2026-10-16",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261016_833723.html",
+      "crawled_date": "2026-10-19"
+    },
+    {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
@@ -2041,7 +2089,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-18T05:25:59.023015+08:00",
-  "total": 255,
+  "last_update": "2026-10-19T05:30:15.357673+08:00",
+  "total": 261,
   "date": "2026-08-04"
 }
