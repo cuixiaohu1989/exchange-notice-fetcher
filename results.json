@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "date_range": {
-    "start": "2026-10-17",
-    "end": "2026-10-19"
+    "start": "2026-10-18",
+    "end": "2026-10-20"
   },
-  "total": 5,
+  "total": 11,
   "failed_exchanges": [],
   "notices": [
     {
@@ -16,11 +16,53 @@
       "link": "http://www.gfex.com.cn/gfex/tzts/202610/53962f0a6cc0428f94e6af6a2a0f0574.shtml"
     },
     {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "市场风险提示函",
+      "notice_date": "2026-10-20",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19623745.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-20",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261020_833772.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于调整20号胶品种套保持仓额度自动转化标准的通知",
+      "notice_date": "2026-10-20",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261020_833768.html"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于同意中化兴中石油转运（舟山）有限公司增加原油期货启用库容的公告",
       "notice_date": "2026-10-19",
       "link": "https://www.ine.cn/publicnotice/notice/202610/t20261019_833736.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-20",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261020_833773.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于调整天然橡胶品种套保持仓额度自动转化标准的通知",
+      "notice_date": "2026-10-20",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261020_833770.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于调整20号胶品种套保持仓额度自动转化标准的通知",
+      "notice_date": "2026-10-20",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261020_833769.html"
     },
     {
       "exchange": "SHFE",
