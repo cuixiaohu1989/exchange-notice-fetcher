@@ -1,6 +1,22 @@
 {
   "notices": [
     {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于开展2026年度做市商资格年检工作的通知",
+      "notice_date": "2026-10-21",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/a29bad44b39b4d85bf71992ee2071022.htm",
+      "crawled_date": "2026-10-22"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-21",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261021_833786.html",
+      "crawled_date": "2026-10-22"
+    },
+    {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
@@ -2169,7 +2185,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-21T06:19:25.629631+08:00",
-  "total": 271,
+  "last_update": "2026-10-22T06:21:58.612614+08:00",
+  "total": 273,
   "date": "2026-08-04"
 }
