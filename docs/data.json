@@ -3,6 +3,30 @@
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
+      "title": "关于调整部分期货合约交易保证金标准和涨跌停板幅度的通知",
+      "notice_date": "2026-10-22",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/9f41f7a2ba4c403ebfc2ce70296d84a6.htm",
+      "crawled_date": "2026-10-23"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "市场风险提示函",
+      "notice_date": "2026-10-22",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202610/6a1e4765870a4878b631816250b386b6.shtml",
+      "crawled_date": "2026-10-23"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-22",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261022_833803.html",
+      "crawled_date": "2026-10-23"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
       "title": "关于开展2026年度做市商资格年检工作的通知",
       "notice_date": "2026-10-21",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/a29bad44b39b4d85bf71992ee2071022.htm",
@@ -2185,7 +2209,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-22T06:21:58.612614+08:00",
-  "total": 273,
+  "last_update": "2026-10-23T06:20:46.877762+08:00",
+  "total": 276,
   "date": "2026-08-04"
 }
