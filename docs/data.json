@@ -3,6 +3,70 @@
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
+      "title": "纪律处分决定公告",
+      "notice_date": "2026-10-23",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/d4fcee3eaa7e486e908cf7e789013ffd.htm",
+      "crawled_date": "2026-10-26"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于举办“郑商所杯”企业套期保值大赛的通知",
+      "notice_date": "2026-10-23",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/f185eb318cb44fc2971981e6a6404e58.htm",
+      "crawled_date": "2026-10-26"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于召开“郑商所杯”企业套期保值大赛宣讲会的通知",
+      "notice_date": "2026-10-23",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/71bce8e97e7e4646b03c753faae1ee7c.htm",
+      "crawled_date": "2026-10-26"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于拓展套利指令适用品种的通知",
+      "notice_date": "2026-10-23",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261023_833814.html",
+      "crawled_date": "2026-10-26"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-23",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261023_833827.html",
+      "crawled_date": "2026-10-26"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于举办“上期大学堂—从业人员强化班”走进产融服务中心（特变电工股份有限公司）培训活动的通知",
+      "notice_date": "2026-10-23",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261023_833817.html",
+      "crawled_date": "2026-10-26"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于拓展套利指令适用品种的通知",
+      "notice_date": "2026-10-23",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261023_833816.html",
+      "crawled_date": "2026-10-26"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于拓展套利指令适用品种的通知",
+      "notice_date": "2026-10-23",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261023_833815.html",
+      "crawled_date": "2026-10-26"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
       "title": "关于调整部分期货合约交易保证金标准和涨跌停板幅度的通知",
       "notice_date": "2026-10-22",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/9f41f7a2ba4c403ebfc2ce70296d84a6.htm",
@@ -2209,7 +2273,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-25T05:35:37.422580+08:00",
-  "total": 276,
+  "last_update": "2026-10-26T05:45:17.273821+08:00",
+  "total": 284,
   "date": "2026-08-04"
 }
