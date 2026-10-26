@@ -3,6 +3,30 @@
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
+      "title": "关于开展2026—2028年度“商储无忧”工作的通知",
+      "notice_date": "2026-10-26",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/64c8635b48e54cebab1dd068067c404d.htm",
+      "crawled_date": "2026-10-27"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意中国外运华东有限公司调整天然橡胶期货存放点的公告",
+      "notice_date": "2026-10-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261026_833833.html",
+      "crawled_date": "2026-10-27"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意增加镍期货交割库存放点和核定库容的公告",
+      "notice_date": "2026-10-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261026_833828.html",
+      "crawled_date": "2026-10-27"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
       "title": "纪律处分决定公告",
       "notice_date": "2026-10-23",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/d4fcee3eaa7e486e908cf7e789013ffd.htm",
@@ -2273,7 +2297,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-26T05:45:17.273821+08:00",
-  "total": 284,
+  "last_update": "2026-10-27T07:07:34.518255+08:00",
+  "total": 287,
   "date": "2026-08-04"
 }
