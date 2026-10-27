@@ -1,6 +1,38 @@
 {
   "notices": [
     {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-27",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261027_833852.html",
+      "crawled_date": "2026-10-28"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于开展“上期大学堂——大宗商品月月谈”2026年第九期线上活动的通知",
+      "notice_date": "2026-10-27",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261027_833843.html",
+      "crawled_date": "2026-10-28"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-10-27",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261027_833841.html",
+      "crawled_date": "2026-10-28"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于修订《上海期货交易所锌期货合约》《上海期货交易所锌期货业务细则》公开征求意见的公告",
+      "notice_date": "2026-10-27",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261027_833842.html",
+      "crawled_date": "2026-10-28"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于开展2026—2028年度“商储无忧”工作的通知",
@@ -2297,7 +2329,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-27T07:07:34.518255+08:00",
-  "total": 287,
+  "last_update": "2026-10-28T06:59:58.440177+08:00",
+  "total": 291,
   "date": "2026-08-04"
 }
