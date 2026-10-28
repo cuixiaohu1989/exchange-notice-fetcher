@@ -1,19 +1,103 @@
 {
   "status": "success",
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "date_range": {
-    "start": "2026-10-25",
-    "end": "2026-10-27"
+    "start": "2026-10-26",
+    "end": "2026-10-28"
   },
-  "total": 8,
+  "total": 20,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于调整锰硅部分交割仓库升贴水的公告",
+      "notice_date": "2026-10-28",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/23e703fc0ef243e6a00c77a7815a2e8b.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于就修订《郑州商品交易所甲醇期货业务细则》征求意见的公告",
+      "notice_date": "2026-10-28",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/e383d844d4ff4049845dde13a6c7f8b4.htm"
+    },
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于开展2026—2028年度“商储无忧”工作的通知",
       "notice_date": "2026-10-26",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/64c8635b48e54cebab1dd068067c404d.htm"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于指定交割仓库更名的公告",
+      "notice_date": "2026-10-28",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202610/e069b6fd3ad54743be759d65765eb4d0.shtml"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整生猪期货LH2703和LH2705合约交易保证金水平的通知",
+      "notice_date": "2026-10-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624299.html"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整生猪期货LH2701合约交易限额的通知",
+      "notice_date": "2026-10-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624295.html"
+    },
+    {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加30年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-10-28",
+      "link": "http://www.cffex.com.cn/cn/jystz/20261028/48740.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-28",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261028_833868.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于同意中国石化集团石油商业储备有限公司增加原油期货启用库容的公告",
+      "notice_date": "2026-10-28",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261028_833853.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-28",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261028_833869.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意中储发展股份有限公司取消存放点的公告",
+      "notice_date": "2026-10-28",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261028_833858.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意山东省港口集团有限公司下属集团成员青岛港国际物流有限公司增加纸浆、丁二烯橡胶期货存放点的公告",
+      "notice_date": "2026-10-28",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261028_833857.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于同意中国石化集团石油商业储备有限公司增加原油期货启用库容的公告",
+      "notice_date": "2026-10-28",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261028_833854.html"
     },
     {
       "exchange": "SHFE",
