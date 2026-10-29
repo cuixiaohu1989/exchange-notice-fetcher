@@ -3,6 +3,70 @@
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
+      "title": "关于公布2026年三季度期权做市商常态化遴选名单的公告",
+      "notice_date": "2026-10-29",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/6770afeeb3f04e3f966481b1400e78fa.htm",
+      "crawled_date": "2026-10-30"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于对2组5名客户采取限制开仓、限制出金监管措施的公告",
+      "notice_date": "2026-10-29",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202610/9fdbc668077c4f61a43306c8fff5e53a.shtml",
+      "crawled_date": "2026-10-30"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-29",
+      "link": "https://www.ine.cn/publicnotice/notice/202610/t20261029_833899.html",
+      "crawled_date": "2026-10-30"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意中远海运物流供应链有限公司下属集团成员重庆中远海运物流有限公司在我所更名为重庆中远海运物流供应链有限公司的公告",
+      "notice_date": "2026-10-29",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261029_833900.html",
+      "crawled_date": "2026-10-30"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-10-29",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261029_833897.html",
+      "crawled_date": "2026-10-30"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于暂停阴极铜期货（CU）、铝期货（AL）保税交割业务的通知",
+      "notice_date": "2026-10-29",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261029_833879.html",
+      "crawled_date": "2026-10-30"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于发布《上海期货交易所两方开票业务指引》的公告",
+      "notice_date": "2026-10-29",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261029_833878.html",
+      "crawled_date": "2026-10-30"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于发布《上海期货交易所结算管理办法（修订案）》等相关业务规则的公告",
+      "notice_date": "2026-10-29",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261029_833872.html",
+      "crawled_date": "2026-10-30"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
       "title": "关于调整锰硅部分交割仓库升贴水的公告",
       "notice_date": "2026-10-28",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/10/23e703fc0ef243e6a00c77a7815a2e8b.htm",
@@ -2409,7 +2473,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-10-29T07:12:40.118176+08:00",
-  "total": 301,
+  "last_update": "2026-10-30T07:19:28.598016+08:00",
+  "total": 309,
   "date": "2026-08-04"
 }
