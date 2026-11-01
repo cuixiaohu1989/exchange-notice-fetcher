@@ -1,6 +1,22 @@
 {
   "notices": [
     {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于就修改液化石油气交割质量标准相关规则公开征求意见的公告",
+      "notice_date": "2026-10-30",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624363.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整生猪、鸡蛋品种厂库出库费用的公告",
+      "notice_date": "2026-10-30",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624356.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于公布2026年三季度期权做市商常态化遴选名单的公告",
@@ -177,6 +193,22 @@
       "crawled_date": "2026-10-28"
     },
     {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整生猪期货LH2703和LH2705合约交易保证金水平的通知",
+      "notice_date": "2026-10-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624299.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整生猪期货LH2701合约交易限额的通知",
+      "notice_date": "2026-10-27",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624295.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于开展2026—2028年度“商储无忧”工作的通知",
@@ -265,6 +297,30 @@
       "crawled_date": "2026-10-26"
     },
     {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于调整生猪期货LH2701合约交易保证金水平的通知",
+      "notice_date": "2026-10-23",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624259.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于修改《大连商品交易所指定交割仓库资格与监督管理规定》等规则的公告",
+      "notice_date": "2026-10-23",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624208.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于开展2026年廉政评议工作的通知",
+      "notice_date": "2026-10-23",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624204.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于调整部分期货合约交易保证金标准和涨跌停板幅度的通知",
@@ -287,6 +343,14 @@
       "notice_date": "2026-10-22",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261022_833803.html",
       "crawled_date": "2026-10-23"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于就黄大豆2号等三个品种标准仓单注销日相关规则修改公开征求意见的公告",
+      "notice_date": "2026-10-22",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19623991.html",
+      "crawled_date": "2026-11-01"
     },
     {
       "exchange": "CZCE",
@@ -343,6 +407,14 @@
       "notice_date": "2026-10-20",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261020_833769.html",
       "crawled_date": "2026-10-21"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "市场风险提示函",
+      "notice_date": "2026-10-20",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19623745.html",
+      "crawled_date": "2026-11-01"
     },
     {
       "exchange": "GFEX",
@@ -431,6 +503,14 @@
       "notice_date": "2026-10-16",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261016_833723.html",
       "crawled_date": "2026-10-19"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于修改《大连商品交易所生猪期货业务细则》的公告",
+      "notice_date": "2026-10-16",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19623608.html",
+      "crawled_date": "2026-11-01"
     },
     {
       "exchange": "SHFE",
@@ -527,6 +607,22 @@
       "notice_date": "2026-10-12",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202610/t20261012_833677.html",
       "crawled_date": "2026-10-13"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于公布铁矿石品牌调查小组备选成员名单的公告",
+      "notice_date": "2026-10-12",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19623090.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于就修改《大连商品交易所违规处理办法》公开征求意见的公告",
+      "notice_date": "2026-10-12",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19623086.html",
+      "crawled_date": "2026-11-01"
     },
     {
       "exchange": "INE",
@@ -801,6 +897,14 @@
       "crawled_date": "2026-09-23"
     },
     {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于厂库标准仓单担保品管理相关事项的通知",
+      "notice_date": "2026-09-22",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19622855.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
       "exchange": "GFEX",
       "exchange_name": "广期所",
       "title": "关于2026年国庆节假期调整相关期货合约涨跌停板幅度和交易保证金标准的通知",
@@ -903,6 +1007,14 @@
       "notice_date": "2026-09-18",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260918_833487.html",
       "crawled_date": "2026-09-21"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于2026年中秋节、国庆节假期调整相关品种期货合约涨跌停板幅度和交易保证金水平的通知",
+      "notice_date": "2026-09-18",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19622733.html",
+      "crawled_date": "2026-11-01"
     },
     {
       "exchange": "CZCE",
@@ -1055,6 +1167,22 @@
       "notice_date": "2026-09-14",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260914_833404.html",
       "crawled_date": "2026-09-15"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于2026年国庆节期间交易时间安排的通知",
+      "notice_date": "2026-09-14",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19622678.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于2026年中秋节期间交易时间安排的通知",
+      "notice_date": "2026-09-14",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19622674.html",
+      "crawled_date": "2026-11-01"
     },
     {
       "exchange": "CZCE",
@@ -1241,6 +1369,14 @@
       "crawled_date": "2026-09-14"
     },
     {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于修改《大连商品交易所交易管理办法》的公告",
+      "notice_date": "2026-09-11",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18634103.html",
+      "crawled_date": "2026-11-01"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于就《郑州商品交易所集团交割业务管理办法（征求意见稿）》对外征求意见的公告",
@@ -1279,6 +1415,14 @@
       "notice_date": "2026-09-10",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202609/t20260910_833342.html",
       "crawled_date": "2026-09-11"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "市场风险提示函",
+      "notice_date": "2026-09-10",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/18634089.html",
+      "crawled_date": "2026-11-01"
     },
     {
       "exchange": "CZCE",
@@ -2473,7 +2617,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-11-01T06:26:46.685187+08:00",
-  "total": 309,
+  "last_update": "2026-11-01T22:32:21.246485+08:00",
+  "total": 327,
   "date": "2026-08-04"
 }
