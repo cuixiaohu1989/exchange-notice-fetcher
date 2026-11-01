@@ -1,6 +1,8 @@
 name: Exchange Notice Crawler
 
 on:
+  push:
+    branches: [main]
   schedule:
     # UTC 19:17 每天 = 北京时间 03:17 每天（凌晨低峰，避开美国晚间CI高峰和整点聚集）
     - cron: "17 19 * * *"
