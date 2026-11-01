@@ -27,9 +27,27 @@ DATA_FILE = os.path.join(PROJECT_ROOT, "docs", "data.json")
 # Beijing timezone
 BJT = timezone(timedelta(hours=8))
 
-# Pattern for simplified test URLs: end with /YYYYMMDD.html (no content ID)
-# 限制年份前缀为 19/20，避免误伤 DCE 内容 ID 路径段如 /18632449.html
-TEST_URL_PATTERN = re.compile(r"/(19|20)\d{6}\.s?html?$")
+# 测试页特征：URL 末尾为 /YYYYMMDD.html（无内容ID）。
+# 注意：大商所真实内容ID也是8位纯数字（如 /19624363.html），
+# 旧正则 /(19|20)\d{6}\.html$ 会把以19/20开头的DCE真实ID误判为测试页而丢弃。
+# 改为：仅当这8位数字能解析为合法日期(年2000-2099,月1-12,日1-31)时才视为测试页，
+# 这样 DCE 的任意数字ID(19624363 -> "1962-43-63" 非合法日期)不会被误杀。
+TEST_URL_PATTERN = re.compile(r"/(\d{8})\.s?html?$")
+
+
+def _looks_like_valid_date(num8: str) -> bool:
+    """8位数字能否解析为合法日期（年2000-2099）"""
+    try:
+        y, m, d = int(num8[:4]), int(num8[4:6]), int(num8[6:8])
+    except ValueError:
+        return False
+    if not (2000 <= y <= 2099):
+        return False
+    if not (1 <= m <= 12):
+        return False
+    if not (1 <= d <= 31):
+        return False
+    return True
 
 
 def load_json(path, default=None):
@@ -51,11 +69,16 @@ def notice_key(n):
 
 
 def is_valid_notice(n):
-    """Filter out test/fake data. Real exchange URLs contain content IDs."""
+    """Filter out test/fake data. Real exchange URLs contain content IDs.
+
+    测试页 URL 末尾为合法的 /YYYYMMDD.html；大商所真实内容ID(如 /19624363.html)
+    虽是8位数字但不构成合法日期，不会被误杀。
+    """
     link = n.get("link", "")
     if not link or not link.startswith("http"):
         return False
-    if TEST_URL_PATTERN.search(link):
+    m = TEST_URL_PATTERN.search(link)
+    if m and _looks_like_valid_date(m.group(1)):
         print(f"  SKIP (test URL pattern): {n.get('title', '')[:40]}")
         return False
     if len(link) < 45:
