@@ -1,19 +1,68 @@
 {
   "status": "success",
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "date_range": {
-    "start": "2026-10-31",
-    "end": "2026-11-02"
+    "start": "2026-11-01",
+    "end": "2026-11-03"
   },
-  "total": 5,
+  "total": 12,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于发布《郑州商品交易所集团交割业务管理办法》的公告",
+      "notice_date": "2026-11-03",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/647d20ca7ee94e96b2645be5e7cd91a5.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于发布《郑州商品交易所指定商品交割仓库管理办法》《郑州商品交易所指定商品交割厂库管理办法》修订案的公告",
+      "notice_date": "2026-11-03",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/dab427cd788140418e4d0c762b1236a8.htm"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-03",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261103_833962.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于交易系统测试的通知",
+      "notice_date": "2026-11-03",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261103_833946.html"
+    },
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于同意取消泰华树胶（大众）有限公司下属BN工厂注册资格的公告",
       "notice_date": "2026-11-02",
       "link": "https://www.ine.cn/publicnotice/notice/202611/t20261102_833921.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于交易系统测试的通知",
+      "notice_date": "2026-11-03",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261103_833945.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-11-03",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261103_833942.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-11-03",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261103_833941.html"
     },
     {
       "exchange": "SHFE",
