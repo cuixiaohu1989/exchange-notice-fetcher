@@ -1,6 +1,38 @@
 {
   "notices": [
     {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于粤港澳大湾区、长三角气温指数（系列）应用场景代表性方案的公告",
+      "notice_date": "2026-11-04",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202611/13c08b52a6a643fbbd28d375040d25fa.shtml",
+      "crawled_date": "2026-11-05"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于举办“助绿向新”期货服务产业系列培训（安徽）的通知",
+      "notice_date": "2026-11-04",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202611/62c5f49f335046529bdd72b0e73ee6f8.shtml",
+      "crawled_date": "2026-11-05"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-04",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202611/f53099c9ab2d4cd282f3c7a302f93661.shtml",
+      "crawled_date": "2026-11-05"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-04",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261104_833975.html",
+      "crawled_date": "2026-11-05"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于发布《郑州商品交易所集团交割业务管理办法》的公告",
@@ -2761,7 +2793,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-11-04T08:01:27.310583+08:00",
-  "total": 345,
+  "last_update": "2026-11-05T08:24:49.415751+08:00",
+  "total": 349,
   "date": "2026-08-04"
 }

@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "date_range": {
-    "start": "2026-11-01",
-    "end": "2026-11-03"
+    "start": "2026-11-02",
+    "end": "2026-11-04"
   },
-  "total": 12,
+  "total": 16,
   "failed_exchanges": [],
   "notices": [
     {
@@ -21,6 +21,27 @@
       "title": "关于发布《郑州商品交易所指定商品交割仓库管理办法》《郑州商品交易所指定商品交割厂库管理办法》修订案的公告",
       "notice_date": "2026-11-03",
       "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/dab427cd788140418e4d0c762b1236a8.htm"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于粤港澳大湾区、长三角气温指数（系列）应用场景代表性方案的公告",
+      "notice_date": "2026-11-04",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202611/13c08b52a6a643fbbd28d375040d25fa.shtml"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于举办“助绿向新”期货服务产业系列培训（安徽）的通知",
+      "notice_date": "2026-11-04",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202611/62c5f49f335046529bdd72b0e73ee6f8.shtml"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-04",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202611/f53099c9ab2d4cd282f3c7a302f93661.shtml"
     },
     {
       "exchange": "INE",
@@ -42,6 +63,13 @@
       "title": "关于同意取消泰华树胶（大众）有限公司下属BN工厂注册资格的公告",
       "notice_date": "2026-11-02",
       "link": "https://www.ine.cn/publicnotice/notice/202611/t20261102_833921.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-04",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261104_833975.html"
     },
     {
       "exchange": "SHFE",
