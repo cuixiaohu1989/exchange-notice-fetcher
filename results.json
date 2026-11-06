@@ -1,13 +1,34 @@
 {
   "status": "success",
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "date_range": {
-    "start": "2026-11-02",
-    "end": "2026-11-04"
+    "start": "2026-11-03",
+    "end": "2026-11-05"
   },
-  "total": 16,
+  "total": 15,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于召开“郑商所杯”企业套期保值大赛成果转化项目宣讲会的通知",
+      "notice_date": "2026-11-05",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/f8fc795f5ca648e6b3691a8640afa40f.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于开展“郑商所杯”企业套期保值大赛成果转化项目的通知",
+      "notice_date": "2026-11-05",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/9595aa25226f447ab1edcd0885b71b92.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于动力煤期货2711合约有关事项的公告",
+      "notice_date": "2026-11-05",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/87547b03f97248eb8286ebdc1f60c966.htm"
+    },
     {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
@@ -47,6 +68,13 @@
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-05",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261105_833987.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-11-03",
       "link": "https://www.ine.cn/publicnotice/notice/202611/t20261103_833962.html"
     },
@@ -56,13 +84,6 @@
       "title": "关于交易系统测试的通知",
       "notice_date": "2026-11-03",
       "link": "https://www.ine.cn/publicnotice/notice/202611/t20261103_833946.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于同意取消泰华树胶（大众）有限公司下属BN工厂注册资格的公告",
-      "notice_date": "2026-11-02",
-      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261102_833921.html"
     },
     {
       "exchange": "SHFE",
@@ -91,34 +112,6 @@
       "title": "违规处理决定公告",
       "notice_date": "2026-11-03",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261103_833941.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-11-02",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261102_833930.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于同意取消泰华树胶（大众）有限公司下属BN工厂注册资格的公告",
-      "notice_date": "2026-11-02",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261102_833922.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意中远海运物流有限公司取消天然橡胶、纸浆期货交割库存放点的公告",
-      "notice_date": "2026-11-02",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261102_833920.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意中远海运物流有限公司取消锌期货交割库存放点的公告",
-      "notice_date": "2026-11-02",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261102_833919.html"
     }
   ]
 }
