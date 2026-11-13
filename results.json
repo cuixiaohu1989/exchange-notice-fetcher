@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "date_range": {
-    "start": "2026-11-09",
-    "end": "2026-11-11"
+    "start": "2026-11-10",
+    "end": "2026-11-12"
   },
-  "total": 18,
+  "total": 11,
   "failed_exchanges": [],
   "notices": [
     {
@@ -65,20 +65,6 @@
       "link": "https://www.ine.cn/publicnotice/notice/202611/t20261110_834046.html"
     },
     {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于调整原油、低硫燃料油期货相关合约交易限额的通知",
-      "notice_date": "2026-11-09",
-      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261109_834008.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于2026年10月自律监管信息的公告",
-      "notice_date": "2026-11-09",
-      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261109_834006.html"
-    },
-    {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于调整铝、铸造铝合金、铅品种套保持仓额度自动转化标准的通知",
@@ -98,41 +84,6 @@
       "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-11-10",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261110_834047.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于调整燃料油、石油沥青期货相关合约交易限额的通知",
-      "notice_date": "2026-11-09",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261109_834010.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "上海国际能源交易中心发布关于调整原油、低硫燃料油期货相关合约交易限额的通知",
-      "notice_date": "2026-11-09",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261109_834009.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-11-09",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261109_834019.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于2026年10月自律监管信息的公告",
-      "notice_date": "2026-11-09",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261109_834005.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意国家粮食和物资储备局云南局五三0处调整天然橡胶期货存放点的公告",
-      "notice_date": "2026-11-09",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261109_834007.html"
     }
   ]
 }
