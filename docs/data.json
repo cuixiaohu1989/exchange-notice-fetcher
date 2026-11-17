@@ -3,6 +3,54 @@
     {
       "exchange": "GFEX",
       "exchange_name": "广期所",
+      "title": "关于举办2期广期所“新能源·向未来”铂、钯品种视频培训的通知",
+      "notice_date": "2026-11-16",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202611/e971e103bcb648c0a05cc9f579e1c0bd.shtml",
+      "crawled_date": "2026-11-17"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-16",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261116_834090.html",
+      "crawled_date": "2026-11-17"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意取消舟山济海能源有限公司石油沥青贸易商厂库资格的公告",
+      "notice_date": "2026-11-16",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261116_834088.html",
+      "crawled_date": "2026-11-17"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于同意浙江东方嘉信贸易发展有限公司成为石油沥青期货贸易商厂库的公告",
+      "notice_date": "2026-11-16",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261116_834087.html",
+      "crawled_date": "2026-11-17"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-16",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261116_834086.html",
+      "crawled_date": "2026-11-17"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-11-16",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261116_834084.html",
+      "crawled_date": "2026-11-17"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
       "title": "关于举办广期所“新能源·向未来”碳酸锂期货套期保值实务专项培训的通知",
       "notice_date": "2026-11-13",
       "link": "http://www.gfex.com.cn/gfex/tzts/202611/cf14b0acea854cb4bd72aee6a19c039a.shtml",
@@ -3177,7 +3225,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-11-16T07:24:10.759111+08:00",
-  "total": 397,
+  "last_update": "2026-11-17T10:30:14.310522+08:00",
+  "total": 403,
   "date": "2026-08-04"
 }
