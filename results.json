@@ -1,13 +1,41 @@
 {
   "status": "success",
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "date_range": {
-    "start": "2026-11-14",
-    "end": "2026-11-16"
+    "start": "2026-11-15",
+    "end": "2026-11-17"
   },
-  "total": 6,
+  "total": 12,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于征集棉纱期货免检品牌的公告",
+      "notice_date": "2026-11-17",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/221394b36531465298527f7f0cad91f1.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于修订《郑州商品交易所期货交割品牌及免检品牌管理办法》的公告",
+      "notice_date": "2026-11-17",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/98db88950c2e457791af6550a1bb0b77.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于发布《郑州商品交易所棉纱期货业务细则》修订案的公告",
+      "notice_date": "2026-11-17",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/2df45344625c496f996e3d6e170c7ea8.htm"
+    },
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于取消指定纯碱交割厂库及免检品牌资格的公告",
+      "notice_date": "2026-11-17",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/7b1a014943224e72967c943d217645a4.htm"
+    },
     {
       "exchange": "GFEX",
       "exchange_name": "广期所",
@@ -21,6 +49,20 @@
       "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-11-16",
       "link": "https://www.ine.cn/publicnotice/notice/202611/t20261116_834090.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-17",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261117_834112.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于举办“上期大学堂—从业人员强化班”走进产融服务中心（柳州钢铁股份有限公司）培训活动的通知",
+      "notice_date": "2026-11-17",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261117_834102.html"
     },
     {
       "exchange": "SHFE",
