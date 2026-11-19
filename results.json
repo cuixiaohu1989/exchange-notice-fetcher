@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "date_range": {
-    "start": "2026-11-15",
-    "end": "2026-11-17"
+    "start": "2026-11-16",
+    "end": "2026-11-18"
   },
-  "total": 12,
+  "total": 16,
   "failed_exchanges": [],
   "notices": [
     {
@@ -39,9 +39,23 @@
     {
       "exchange": "GFEX",
       "exchange_name": "广期所",
+      "title": "关于开展3期广期所“新能源·向未来”氢氧化锂品种视频培训的通知",
+      "notice_date": "2026-11-18",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202611/c8240f12a06447d09951fc4acb3b6a25.shtml"
+    },
+    {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
       "title": "关于举办2期广期所“新能源·向未来”铂、钯品种视频培训的通知",
       "notice_date": "2026-11-16",
       "link": "http://www.gfex.com.cn/gfex/tzts/202611/e971e103bcb648c0a05cc9f579e1c0bd.shtml"
+    },
+    {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加10年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-11-18",
+      "link": "http://www.cffex.com.cn/cn/jystz/20261118/48820.html"
     },
     {
       "exchange": "INE",
@@ -49,6 +63,20 @@
       "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-11-16",
       "link": "https://www.ine.cn/publicnotice/notice/202611/t20261116_834090.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-18",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261118_834130.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于开展“上期大学堂——大宗商品月月谈”2026年第十期线上活动的通知",
+      "notice_date": "2026-11-18",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261118_834120.html"
     },
     {
       "exchange": "SHFE",
