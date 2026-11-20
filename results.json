@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "date_range": {
-    "start": "2026-11-16",
-    "end": "2026-11-18"
+    "start": "2026-11-17",
+    "end": "2026-11-19"
   },
-  "total": 16,
+  "total": 13,
   "failed_exchanges": [],
   "notices": [
     {
@@ -44,13 +44,6 @@
       "link": "http://www.gfex.com.cn/gfex/tzts/202611/c8240f12a06447d09951fc4acb3b6a25.shtml"
     },
     {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于举办2期广期所“新能源·向未来”铂、钯品种视频培训的通知",
-      "notice_date": "2026-11-16",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202611/e971e103bcb648c0a05cc9f579e1c0bd.shtml"
-    },
-    {
       "exchange": "CFFEX",
       "exchange_name": "中金所",
       "title": "关于增加10年期国债期货合约可交割国债的通知",
@@ -61,8 +54,22 @@
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-11-16",
-      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261116_834090.html"
+      "notice_date": "2026-11-19",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261119_834142.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-19",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261119_834141.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "违规处理决定公告",
+      "notice_date": "2026-11-19",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261119_834133.html"
     },
     {
       "exchange": "SHFE",
@@ -91,34 +98,6 @@
       "title": "关于举办“上期大学堂—从业人员强化班”走进产融服务中心（柳州钢铁股份有限公司）培训活动的通知",
       "notice_date": "2026-11-17",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261117_834102.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意取消舟山济海能源有限公司石油沥青贸易商厂库资格的公告",
-      "notice_date": "2026-11-16",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261116_834088.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意浙江东方嘉信贸易发展有限公司成为石油沥青期货贸易商厂库的公告",
-      "notice_date": "2026-11-16",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261116_834087.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-11-16",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261116_834086.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "违规处理决定公告",
-      "notice_date": "2026-11-16",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261116_834084.html"
     }
   ]
 }
