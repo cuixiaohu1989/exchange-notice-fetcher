@@ -1,124 +1,33 @@
 {
   "status": "success",
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "date_range": {
-    "start": "2026-11-20",
-    "end": "2026-11-22"
+    "start": "2026-11-21",
+    "end": "2026-11-23"
   },
-  "total": 16,
+  "total": 3,
   "failed_exchanges": [],
   "notices": [
     {
-      "exchange": "CZCE",
-      "exchange_name": "郑商所",
-      "title": "关于调整苹果期货2701合约、红枣期货2701合约交易指令每次最小开仓下单量的公告",
-      "notice_date": "2026-11-20",
-      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/e09c13a03e1e4f838c22d8eed5dae0e7.htm"
-    },
-    {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于公布相关品种做市商名单的公告",
-      "notice_date": "2026-11-20",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202611/7d6455be744d4926a10a91b0d51d3b6d.shtml"
-    },
-    {
-      "exchange": "GFEX",
-      "exchange_name": "广期所",
-      "title": "关于氢氧化锂期货交割业务有关事项的通知",
-      "notice_date": "2026-11-20",
-      "link": "http://www.gfex.com.cn/gfex/tzts/202611/5fdbcb8078de4f479a435fb1579cd044.shtml"
-    },
-    {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于同意玉米淀粉集装箱入库免检交割厂库放弃资格的公告",
-      "notice_date": "2026-11-20",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624842.html"
-    },
-    {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于调整铁矿石指定交割仓库的公告",
-      "notice_date": "2026-11-20",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624817.html"
-    },
-    {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于修改《大连商品交易所液化石油气期货合约》和《大连商品交易所液化石油气期货业务细则》的...",
-      "notice_date": "2026-11-20",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624781.html"
-    },
-    {
-      "exchange": "DCE",
-      "exchange_name": "大商所",
-      "title": "关于违规案件处理情况的公告",
-      "notice_date": "2026-11-20",
-      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624832.html"
-    },
-    {
       "exchange": "CFFEX",
       "exchange_name": "中金所",
-      "title": "关于股指期货和股指期权合约交割的通知",
-      "notice_date": "2026-11-20",
-      "link": "http://www.cffex.com.cn/cn/jystz/20261120/48842.html"
-    },
-    {
-      "exchange": "CFFEX",
-      "exchange_name": "中金所",
-      "title": "股指期货和股指期权新合约上市通知",
-      "notice_date": "2026-11-20",
-      "link": "http://www.cffex.com.cn/cn/jystz/20261120/48840.html"
-    },
-    {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
-      "title": "关于做好市场风险控制工作的通知",
-      "notice_date": "2026-11-20",
-      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261120_834177.html"
+      "title": "关于增加10年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-11-23",
+      "link": "http://www.cffex.com.cn/cn/jystz/20261123/48851.html"
     },
     {
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-11-20",
-      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261120_834175.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于做好市场风险控制工作的通知",
-      "notice_date": "2026-11-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261120_834176.html"
+      "notice_date": "2026-11-23",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261123_834180.html"
     },
     {
       "exchange": "SHFE",
       "exchange_name": "上期所",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-11-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261120_834174.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意广东炬申仓储有限公司新增铝期货存放点的公告",
-      "notice_date": "2026-11-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261120_834158.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意国家粮食和物资储备局广东局八三〇处成为铝期货交割仓库的公告",
-      "notice_date": "2026-11-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261120_834157.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于同意中储发展股份有限公司下属集团成员广东中储晟世照邦物流有限公司新增铝期货存放点的公告",
-      "notice_date": "2026-11-20",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261120_834156.html"
+      "notice_date": "2026-11-23",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261123_834179.html"
     }
   ]
 }

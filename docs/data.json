@@ -1,6 +1,30 @@
 {
   "notices": [
     {
+      "exchange": "CFFEX",
+      "exchange_name": "中金所",
+      "title": "关于增加10年期国债期货合约可交割国债的通知",
+      "notice_date": "2026-11-23",
+      "link": "http://www.cffex.com.cn/cn/jystz/20261123/48851.html",
+      "crawled_date": "2026-11-24"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-23",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261123_834180.html",
+      "crawled_date": "2026-11-24"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-23",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261123_834179.html",
+      "crawled_date": "2026-11-24"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于调整苹果期货2701合约、红枣期货2701合约交易指令每次最小开仓下单量的公告",
@@ -3457,7 +3481,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-11-23T08:18:47.309467+08:00",
-  "total": 432,
+  "last_update": "2026-11-24T12:20:05.575929+08:00",
+  "total": 435,
   "date": "2026-08-04"
 }
