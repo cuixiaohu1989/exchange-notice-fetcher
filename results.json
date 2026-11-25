@@ -1,13 +1,27 @@
 {
   "status": "success",
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "date_range": {
-    "start": "2026-11-21",
-    "end": "2026-11-23"
+    "start": "2026-11-22",
+    "end": "2026-11-24"
   },
-  "total": 3,
+  "total": 10,
   "failed_exchanges": [],
   "notices": [
+    {
+      "exchange": "CZCE",
+      "exchange_name": "郑商所",
+      "title": "关于就修订《郑州商品交易所期货结算管理办法》征求意见的公告",
+      "notice_date": "2026-11-24",
+      "link": "http://www.czce.com.cn/cn/gyjys/jysdt/ggytz/webinfo/2026/11/3289356a4ce04f7b88d303550d5e27b5.htm"
+    },
+    {
+      "exchange": "DCE",
+      "exchange_name": "大商所",
+      "title": "关于就有价证券作为保证金折扣比率规则优化公开征求意见的公告",
+      "notice_date": "2026-11-24",
+      "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624913.html"
+    },
     {
       "exchange": "CFFEX",
       "exchange_name": "中金所",
@@ -19,8 +33,43 @@
       "exchange": "INE",
       "exchange_name": "上期能源",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-24",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261124_834209.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于就修订《上海国际能源交易中心结算细则》公开征求意见的公告",
+      "notice_date": "2026-11-24",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261124_834198.html"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
       "notice_date": "2026-11-23",
       "link": "https://www.ine.cn/publicnotice/notice/202611/t20261123_834180.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-24",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261124_834208.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于就修订《上海国际能源交易中心结算细则》公开征求意见的公告",
+      "notice_date": "2026-11-24",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261124_834199.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于就修订《上海期货交易所结算管理办法》公开征求意见的公告",
+      "notice_date": "2026-11-24",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261124_834197.html"
     },
     {
       "exchange": "SHFE",
