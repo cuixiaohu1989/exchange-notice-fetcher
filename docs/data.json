@@ -1,6 +1,38 @@
 {
   "notices": [
     {
+      "exchange": "GFEX",
+      "exchange_name": "广期所",
+      "title": "关于氢氧化锂期货合约挂牌基准价的通知",
+      "notice_date": "2026-11-25",
+      "link": "http://www.gfex.com.cn/gfex/tzts/202611/dda6bc8fcfdd4cc9b2ee3875d70ff7b1.shtml",
+      "crawled_date": "2026-11-26"
+    },
+    {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于就上海国际能源交易中心业务规则体系优化草案公开征求意见的公告",
+      "notice_date": "2026-11-25",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261125_834213.html",
+      "crawled_date": "2026-11-26"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-25",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261125_834223.html",
+      "crawled_date": "2026-11-26"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于就上海国际能源交易中心业务规则体系优化草案公开征求意见的公告",
+      "notice_date": "2026-11-25",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261125_834214.html",
+      "crawled_date": "2026-11-26"
+    },
+    {
       "exchange": "CZCE",
       "exchange_name": "郑商所",
       "title": "关于就修订《郑州商品交易所期货结算管理办法》征求意见的公告",
@@ -3537,7 +3569,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-11-25T11:04:46.197396+08:00",
-  "total": 442,
+  "last_update": "2026-11-26T10:13:47.464257+08:00",
+  "total": 446,
   "date": "2026-08-04"
 }
