@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "date_range": {
-    "start": "2026-11-23",
-    "end": "2026-11-25"
+    "start": "2026-11-24",
+    "end": "2026-11-26"
   },
-  "total": 14,
+  "total": 15,
   "failed_exchanges": [],
   "notices": [
     {
@@ -30,11 +30,11 @@
       "link": "http://www.dce.com.cn/dce/content/2026/ywggytz/19624913.html"
     },
     {
-      "exchange": "CFFEX",
-      "exchange_name": "中金所",
-      "title": "关于增加10年期国债期货合约可交割国债的通知",
-      "notice_date": "2026-11-23",
-      "link": "http://www.cffex.com.cn/cn/jystz/20261123/48851.html"
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于进一步拓展套利指令适用范围的通知",
+      "notice_date": "2026-11-26",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261126_834229.html"
     },
     {
       "exchange": "INE",
@@ -58,11 +58,25 @@
       "link": "https://www.ine.cn/publicnotice/notice/202611/t20261124_834198.html"
     },
     {
-      "exchange": "INE",
-      "exchange_name": "上期能源",
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
       "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-11-23",
-      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261123_834180.html"
+      "notice_date": "2026-11-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261126_834240.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于进一步拓展套利指令适用范围的通知",
+      "notice_date": "2026-11-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261126_834231.html"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于进一步拓展套利指令适用范围的通知",
+      "notice_date": "2026-11-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261126_834230.html"
     },
     {
       "exchange": "SHFE",
@@ -98,13 +112,6 @@
       "title": "关于就修订《上海期货交易所结算管理办法》公开征求意见的公告",
       "notice_date": "2026-11-24",
       "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261124_834197.html"
-    },
-    {
-      "exchange": "SHFE",
-      "exchange_name": "上期所",
-      "title": "关于对部分客户采取限制开仓监管措施的公告",
-      "notice_date": "2026-11-23",
-      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261123_834179.html"
     }
   ]
 }

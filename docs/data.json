@@ -1,6 +1,38 @@
 {
   "notices": [
     {
+      "exchange": "INE",
+      "exchange_name": "上期能源",
+      "title": "关于进一步拓展套利指令适用范围的通知",
+      "notice_date": "2026-11-26",
+      "link": "https://www.ine.cn/publicnotice/notice/202611/t20261126_834229.html",
+      "crawled_date": "2026-11-27"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于对部分客户采取限制开仓监管措施的公告",
+      "notice_date": "2026-11-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261126_834240.html",
+      "crawled_date": "2026-11-27"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "关于进一步拓展套利指令适用范围的通知",
+      "notice_date": "2026-11-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261126_834231.html",
+      "crawled_date": "2026-11-27"
+    },
+    {
+      "exchange": "SHFE",
+      "exchange_name": "上期所",
+      "title": "上海国际能源交易中心发布关于进一步拓展套利指令适用范围的通知",
+      "notice_date": "2026-11-26",
+      "link": "https://www.shfe.com.cn/publicnotice/notice/202611/t20261126_834230.html",
+      "crawled_date": "2026-11-27"
+    },
+    {
       "exchange": "GFEX",
       "exchange_name": "广期所",
       "title": "关于氢氧化锂期货合约挂牌基准价的通知",
@@ -3569,7 +3601,7 @@
       "crawled_date": "2026-08-04"
     }
   ],
-  "last_update": "2026-11-26T10:13:47.464257+08:00",
-  "total": 446,
+  "last_update": "2026-11-27T10:12:16.027716+08:00",
+  "total": 450,
   "date": "2026-08-04"
 }
